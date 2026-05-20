@@ -1,0 +1,3518 @@
+{
+  "artifactID": "mockserver-war",
+  "groupID": "org.mock-server",
+  "version": "5.15.1-SNAPSHOT",
+  "lockFileVersion": 1,
+  "dependencies": [
+    {
+      "groupId": "javax.servlet",
+      "artifactId": "javax.servlet-api",
+      "version": "4.0.1",
+      "checksumAlgorithm": "sha1",
+      "checksum": "a27082684a2ff0bf397666c3943496c44541d1ca",
+      "scope": "compile",
+      "selectedVersion": "4.0.1",
+      "id": "javax.servlet:javax.servlet-api:4.0.1",
+      "children": []
+    },
+    {
+      "groupId": "junit",
+      "artifactId": "junit",
+      "version": "4.13.2",
+      "checksumAlgorithm": "sha1",
+      "checksum": "8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12",
+      "scope": "test",
+      "selectedVersion": "4.13.2",
+      "id": "junit:junit:4.13.2",
+      "children": [
+        {
+          "groupId": "org.hamcrest",
+          "artifactId": "hamcrest-core",
+          "version": "2.2",
+          "checksumAlgorithm": "sha1",
+          "checksum": "3f2bd07716a31c395e2837254f37f21f0f0ab24b",
+          "scope": "compile",
+          "selectedVersion": "2.2",
+          "id": "org.hamcrest:hamcrest-core:2.2",
+          "parent": "junit:junit:4.13.2",
+          "children": [
+            {
+              "groupId": "org.hamcrest",
+              "artifactId": "hamcrest",
+              "version": "2.2",
+              "checksumAlgorithm": "sha1",
+              "checksum": "1820c0968dba3a11a1b30669bb1f01978a91dedc",
+              "scope": "compile",
+              "selectedVersion": "2.2",
+              "id": "org.hamcrest:hamcrest:2.2",
+              "parent": "org.hamcrest:hamcrest-core:2.2",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "groupId": "org.apache.tomcat.embed",
+      "artifactId": "tomcat-embed-core",
+      "version": "9.0.71",
+      "checksumAlgorithm": "sha1",
+      "checksum": "adaed61b4eaa5b52448336c0881fcd828fd51a2f",
+      "scope": "test",
+      "selectedVersion": "9.0.71",
+      "id": "org.apache.tomcat.embed:tomcat-embed-core:9.0.71",
+      "children": [
+        {
+          "groupId": "org.apache.tomcat",
+          "artifactId": "tomcat-annotations-api",
+          "version": "9.0.71",
+          "checksumAlgorithm": "sha1",
+          "checksum": "898ad20682cb807f734e600ba224d6a3eecaedbc",
+          "scope": "test",
+          "selectedVersion": "9.0.71",
+          "id": "org.apache.tomcat:tomcat-annotations-api:9.0.71",
+          "parent": "org.apache.tomcat.embed:tomcat-embed-core:9.0.71",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "org.apache.tomcat.embed",
+      "artifactId": "tomcat-embed-logging-juli",
+      "version": "8.5.2",
+      "checksumAlgorithm": "sha1",
+      "checksum": "eb8d86e9972274272133c73a976ea744d9086cf1",
+      "scope": "test",
+      "selectedVersion": "8.5.2",
+      "id": "org.apache.tomcat.embed:tomcat-embed-logging-juli:8.5.2",
+      "children": []
+    },
+    {
+      "groupId": "org.mock-server",
+      "artifactId": "mockserver-client-java",
+      "version": "5.15.1-SNAPSHOT",
+      "checksumAlgorithm": "sha1",
+      "checksum": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "scope": "test",
+      "selectedVersion": "5.15.1-SNAPSHOT",
+      "id": "org.mock-server:mockserver-client-java:5.15.1-SNAPSHOT",
+      "children": [
+        {
+          "groupId": "com.google.guava",
+          "artifactId": "guava",
+          "version": "31.1-jre",
+          "checksumAlgorithm": "sha1",
+          "checksum": "60458f877d055d0c9114d9e1a2efb737b4bc282c",
+          "scope": "test",
+          "selectedVersion": "31.1-jre",
+          "id": "com.google.guava:guava:31.1-jre",
+          "parent": "org.mock-server:mockserver-client-java:5.15.1-SNAPSHOT",
+          "children": []
+        },
+        {
+          "groupId": "org.apache.commons",
+          "artifactId": "commons-lang3",
+          "version": "3.12.0",
+          "checksumAlgorithm": "sha1",
+          "checksum": "c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e",
+          "scope": "test",
+          "selectedVersion": "3.12.0",
+          "id": "org.apache.commons:commons-lang3:3.12.0",
+          "parent": "org.mock-server:mockserver-client-java:5.15.1-SNAPSHOT",
+          "children": []
+        },
+        {
+          "groupId": "org.mock-server",
+          "artifactId": "mockserver-core",
+          "version": "5.15.1-SNAPSHOT",
+          "checksumAlgorithm": "sha1",
+          "checksum": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "scope": "test",
+          "selectedVersion": "5.15.1-SNAPSHOT",
+          "id": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "parent": "org.mock-server:mockserver-client-java:5.15.1-SNAPSHOT",
+          "children": []
+        },
+        {
+          "groupId": "org.slf4j",
+          "artifactId": "slf4j-api",
+          "version": "2.0.6",
+          "checksumAlgorithm": "sha1",
+          "checksum": "88c40d8b4f33326f19a7d3c0aaf2c7e8721d4953",
+          "scope": "test",
+          "selectedVersion": "2.0.6",
+          "id": "org.slf4j:slf4j-api:2.0.6",
+          "parent": "org.mock-server:mockserver-client-java:5.15.1-SNAPSHOT",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "org.mock-server",
+      "artifactId": "mockserver-core",
+      "version": "5.15.1-SNAPSHOT",
+      "checksumAlgorithm": "sha1",
+      "checksum": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "scope": "compile",
+      "selectedVersion": "5.15.1-SNAPSHOT",
+      "id": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+      "children": [
+        {
+          "groupId": "com.fasterxml.jackson.core",
+          "artifactId": "jackson-annotations",
+          "version": "2.14.2",
+          "checksumAlgorithm": "sha1",
+          "checksum": "a7aae9525864930723e3453ab799521fdfd9d873",
+          "scope": "compile",
+          "selectedVersion": "2.14.2",
+          "id": "com.fasterxml.jackson.core:jackson-annotations:2.14.2",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": []
+        },
+        {
+          "groupId": "com.fasterxml.jackson.core",
+          "artifactId": "jackson-core",
+          "version": "2.14.2",
+          "checksumAlgorithm": "sha1",
+          "checksum": "f804090e6399ce0cf78242db086017512dd71fcc",
+          "scope": "compile",
+          "selectedVersion": "2.14.2",
+          "id": "com.fasterxml.jackson.core:jackson-core:2.14.2",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": []
+        },
+        {
+          "groupId": "com.fasterxml.jackson.core",
+          "artifactId": "jackson-databind",
+          "version": "2.14.2",
+          "checksumAlgorithm": "sha1",
+          "checksum": "1e71fddbc80bb86f71a6345ac1e8ab8a00e7134",
+          "scope": "compile",
+          "selectedVersion": "2.14.2",
+          "id": "com.fasterxml.jackson.core:jackson-databind:2.14.2",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": [
+            {
+              "groupId": "com.fasterxml.jackson.core",
+              "artifactId": "jackson-core",
+              "version": "2.14.2",
+              "checksumAlgorithm": "sha1",
+              "checksum": "f804090e6399ce0cf78242db086017512dd71fcc",
+              "scope": "compile",
+              "selectedVersion": "2.14.2",
+              "id": "com.fasterxml.jackson.core:jackson-core:2.14.2",
+              "parent": "com.fasterxml.jackson.core:jackson-databind:2.14.2",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "com.fasterxml.uuid",
+          "artifactId": "java-uuid-generator",
+          "version": "4.1.0",
+          "checksumAlgorithm": "sha1",
+          "checksum": "6921e17b8463be7141fba3d640ef8c0bdbcad3f5",
+          "scope": "compile",
+          "selectedVersion": "4.1.0",
+          "id": "com.fasterxml.uuid:java-uuid-generator:4.1.0",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": [
+            {
+              "groupId": "org.slf4j",
+              "artifactId": "slf4j-api",
+              "version": "2.0.6",
+              "checksumAlgorithm": "sha1",
+              "checksum": "88c40d8b4f33326f19a7d3c0aaf2c7e8721d4953",
+              "scope": "compile",
+              "selectedVersion": "2.0.6",
+              "id": "org.slf4j:slf4j-api:2.0.6",
+              "parent": "com.fasterxml.uuid:java-uuid-generator:4.1.0",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "com.google.guava",
+          "artifactId": "guava",
+          "version": "31.1-jre",
+          "checksumAlgorithm": "sha1",
+          "checksum": "60458f877d055d0c9114d9e1a2efb737b4bc282c",
+          "scope": "compile",
+          "selectedVersion": "31.1-jre",
+          "id": "com.google.guava:guava:31.1-jre",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": [
+            {
+              "groupId": "com.google.code.findbugs",
+              "artifactId": "jsr305",
+              "version": "3.0.2",
+              "checksumAlgorithm": "sha1",
+              "checksum": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d",
+              "scope": "compile",
+              "selectedVersion": "3.0.2",
+              "id": "com.google.code.findbugs:jsr305:3.0.2",
+              "parent": "com.google.guava:guava:31.1-jre",
+              "children": []
+            },
+            {
+              "groupId": "com.google.errorprone",
+              "artifactId": "error_prone_annotations",
+              "version": "2.11.0",
+              "checksumAlgorithm": "sha1",
+              "checksum": "c5a0ace696d3f8b1c1d8cc036d8c03cc0cbe6b69",
+              "scope": "compile",
+              "selectedVersion": "2.11.0",
+              "id": "com.google.errorprone:error_prone_annotations:2.11.0",
+              "parent": "com.google.guava:guava:31.1-jre",
+              "children": []
+            },
+            {
+              "groupId": "com.google.guava",
+              "artifactId": "failureaccess",
+              "version": "1.0.1",
+              "checksumAlgorithm": "sha1",
+              "checksum": "1dcf1de382a0bf95a3d8b0849546c88bac1292c9",
+              "scope": "compile",
+              "selectedVersion": "1.0.1",
+              "id": "com.google.guava:failureaccess:1.0.1",
+              "parent": "com.google.guava:guava:31.1-jre",
+              "children": []
+            },
+            {
+              "groupId": "com.google.guava",
+              "artifactId": "listenablefuture",
+              "version": "9999.0-empty-to-avoid-conflict-with-guava",
+              "checksumAlgorithm": "sha1",
+              "checksum": "b421526c5f297295adef1c886e5246c39d4ac629",
+              "scope": "compile",
+              "selectedVersion": "9999.0-empty-to-avoid-conflict-with-guava",
+              "id": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+              "parent": "com.google.guava:guava:31.1-jre",
+              "children": []
+            },
+            {
+              "groupId": "com.google.j2objc",
+              "artifactId": "j2objc-annotations",
+              "version": "1.3",
+              "checksumAlgorithm": "sha1",
+              "checksum": "ba035118bc8bac37d7eff77700720999acd9986d",
+              "scope": "compile",
+              "selectedVersion": "1.3",
+              "id": "com.google.j2objc:j2objc-annotations:1.3",
+              "parent": "com.google.guava:guava:31.1-jre",
+              "children": []
+            },
+            {
+              "groupId": "org.checkerframework",
+              "artifactId": "checker-qual",
+              "version": "3.12.0",
+              "checksumAlgorithm": "sha1",
+              "checksum": "d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5",
+              "scope": "compile",
+              "selectedVersion": "3.12.0",
+              "id": "org.checkerframework:checker-qual:3.12.0",
+              "parent": "com.google.guava:guava:31.1-jre",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "com.jayway.jsonpath",
+          "artifactId": "json-path",
+          "version": "2.7.0",
+          "checksumAlgorithm": "sha1",
+          "checksum": "f9d7d9659f2694e61142046ff8a216c047f263e8",
+          "scope": "compile",
+          "selectedVersion": "2.7.0",
+          "id": "com.jayway.jsonpath:json-path:2.7.0",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": [
+            {
+              "groupId": "net.minidev",
+              "artifactId": "json-smart",
+              "version": "2.4.7",
+              "checksumAlgorithm": "sha1",
+              "checksum": "8d7f4c1530c07c54930935f3da85f48b83b3c109",
+              "scope": "compile",
+              "selectedVersion": "2.4.7",
+              "id": "net.minidev:json-smart:2.4.7",
+              "parent": "com.jayway.jsonpath:json-path:2.7.0",
+              "children": [
+                {
+                  "groupId": "net.minidev",
+                  "artifactId": "accessors-smart",
+                  "version": "2.4.7",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "3970cfc505e6657ca60f3aa57c849f6043000d7a",
+                  "scope": "compile",
+                  "selectedVersion": "2.4.7",
+                  "id": "net.minidev:accessors-smart:2.4.7",
+                  "parent": "net.minidev:json-smart:2.4.7",
+                  "children": [
+                    {
+                      "groupId": "org.ow2.asm",
+                      "artifactId": "asm",
+                      "version": "9.1",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "a99500cf6eea30535eeac6be73899d048f8d12a8",
+                      "scope": "compile",
+                      "selectedVersion": "9.1",
+                      "id": "org.ow2.asm:asm:9.1",
+                      "parent": "net.minidev:accessors-smart:2.4.7",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "groupId": "org.slf4j",
+              "artifactId": "slf4j-api",
+              "version": "2.0.6",
+              "checksumAlgorithm": "sha1",
+              "checksum": "88c40d8b4f33326f19a7d3c0aaf2c7e8721d4953",
+              "scope": "compile",
+              "selectedVersion": "2.0.6",
+              "id": "org.slf4j:slf4j-api:2.0.6",
+              "parent": "com.jayway.jsonpath:json-path:2.7.0",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "com.jcraft",
+          "artifactId": "jzlib",
+          "version": "1.1.3",
+          "checksumAlgorithm": "sha1",
+          "checksum": "c01428efa717624f7aabf4df319939dda9646b2d",
+          "scope": "compile",
+          "selectedVersion": "1.1.3",
+          "id": "com.jcraft:jzlib:1.1.3",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": []
+        },
+        {
+          "groupId": "com.lmax",
+          "artifactId": "disruptor",
+          "version": "3.4.4",
+          "checksumAlgorithm": "sha1",
+          "checksum": "588321627643b6de45db44c6575e750fea3ae3f5",
+          "scope": "compile",
+          "selectedVersion": "3.4.4",
+          "id": "com.lmax:disruptor:3.4.4",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": []
+        },
+        {
+          "groupId": "com.networknt",
+          "artifactId": "json-schema-validator",
+          "version": "1.0.76",
+          "checksumAlgorithm": "sha1",
+          "checksum": "bcaecaa0de78979a48960876c92e64977e5df840",
+          "scope": "compile",
+          "selectedVersion": "1.0.76",
+          "id": "com.networknt:json-schema-validator:1.0.76",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": [
+            {
+              "groupId": "com.ethlo.time",
+              "artifactId": "itu",
+              "version": "1.7.0",
+              "checksumAlgorithm": "sha1",
+              "checksum": "c6977b9d42efa3f8c95c31db5313a96ffc1724",
+              "scope": "compile",
+              "selectedVersion": "1.7.0",
+              "id": "com.ethlo.time:itu:1.7.0",
+              "parent": "com.networknt:json-schema-validator:1.0.76",
+              "children": []
+            },
+            {
+              "groupId": "com.fasterxml.jackson.core",
+              "artifactId": "jackson-databind",
+              "version": "2.14.2",
+              "checksumAlgorithm": "sha1",
+              "checksum": "1e71fddbc80bb86f71a6345ac1e8ab8a00e7134",
+              "scope": "compile",
+              "selectedVersion": "2.14.2",
+              "id": "com.fasterxml.jackson.core:jackson-databind:2.14.2",
+              "parent": "com.networknt:json-schema-validator:1.0.76",
+              "children": []
+            },
+            {
+              "groupId": "org.apache.commons",
+              "artifactId": "commons-lang3",
+              "version": "3.12.0",
+              "checksumAlgorithm": "sha1",
+              "checksum": "c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e",
+              "scope": "runtime",
+              "selectedVersion": "3.12.0",
+              "id": "org.apache.commons:commons-lang3:3.12.0",
+              "parent": "com.networknt:json-schema-validator:1.0.76",
+              "children": []
+            },
+            {
+              "groupId": "org.slf4j",
+              "artifactId": "slf4j-api",
+              "version": "2.0.6",
+              "checksumAlgorithm": "sha1",
+              "checksum": "88c40d8b4f33326f19a7d3c0aaf2c7e8721d4953",
+              "scope": "compile",
+              "selectedVersion": "2.0.6",
+              "id": "org.slf4j:slf4j-api:2.0.6",
+              "parent": "com.networknt:json-schema-validator:1.0.76",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "com.nimbusds",
+          "artifactId": "nimbus-jose-jwt",
+          "version": "9.30.2",
+          "checksumAlgorithm": "sha1",
+          "checksum": "3a291d6af4007fd88df384249378130102912385",
+          "scope": "compile",
+          "selectedVersion": "9.30.2",
+          "id": "com.nimbusds:nimbus-jose-jwt:9.30.2",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": [
+            {
+              "groupId": "com.github.stephenc.jcip",
+              "artifactId": "jcip-annotations",
+              "version": "1.0-1",
+              "checksumAlgorithm": "sha1",
+              "checksum": "ef31541dd28ae2cefdd17c7ebf352d93e9058c63",
+              "scope": "compile",
+              "selectedVersion": "1.0-1",
+              "id": "com.github.stephenc.jcip:jcip-annotations:1.0-1",
+              "parent": "com.nimbusds:nimbus-jose-jwt:9.30.2",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "com.samskivert",
+          "artifactId": "jmustache",
+          "version": "1.15",
+          "checksumAlgorithm": "sha1",
+          "checksum": "7b3b15951d13b774c76db2f4e14d977952f8b4d8",
+          "scope": "compile",
+          "selectedVersion": "1.15",
+          "id": "com.samskivert:jmustache:1.15",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": []
+        },
+        {
+          "groupId": "com.sun.xml.bind",
+          "artifactId": "jaxb-impl",
+          "version": "4.0.2",
+          "checksumAlgorithm": "sha1",
+          "checksum": "20050c9054eb0e6cf8568c2ca83739d71df731d4",
+          "scope": "runtime",
+          "selectedVersion": "4.0.2",
+          "id": "com.sun.xml.bind:jaxb-impl:4.0.2",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": [
+            {
+              "groupId": "com.sun.xml.bind",
+              "artifactId": "jaxb-core",
+              "version": "4.0.2",
+              "checksumAlgorithm": "sha1",
+              "checksum": "b93945e547a8b0d6ab34d0c93e30255b8bda9fc0",
+              "scope": "runtime",
+              "selectedVersion": "4.0.2",
+              "id": "com.sun.xml.bind:jaxb-core:4.0.2",
+              "parent": "com.sun.xml.bind:jaxb-impl:4.0.2",
+              "children": [
+                {
+                  "groupId": "jakarta.xml.bind",
+                  "artifactId": "jakarta.xml.bind-api",
+                  "version": "3.0.1",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "5257932df36ff3e4e6de50429dde946490a6a800",
+                  "scope": "runtime",
+                  "selectedVersion": "3.0.1",
+                  "id": "jakarta.xml.bind:jakarta.xml.bind-api:3.0.1",
+                  "parent": "com.sun.xml.bind:jaxb-core:4.0.2",
+                  "children": []
+                },
+                {
+                  "groupId": "org.eclipse.angus",
+                  "artifactId": "angus-activation",
+                  "version": "2.0.0",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "72369f4e2314d38de2dcbb277141ef0226f73151",
+                  "scope": "runtime",
+                  "selectedVersion": "2.0.0",
+                  "id": "org.eclipse.angus:angus-activation:2.0.0",
+                  "parent": "com.sun.xml.bind:jaxb-core:4.0.2",
+                  "children": [
+                    {
+                      "groupId": "jakarta.activation",
+                      "artifactId": "jakarta.activation-api",
+                      "version": "2.1.1",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "88c774ab863a21fb2fc4219af95379fafe499a31",
+                      "scope": "runtime",
+                      "selectedVersion": "2.1.1",
+                      "id": "jakarta.activation:jakarta.activation-api:2.1.1",
+                      "parent": "org.eclipse.angus:angus-activation:2.0.0",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "groupId": "commons-codec",
+          "artifactId": "commons-codec",
+          "version": "1.15",
+          "checksumAlgorithm": "sha1",
+          "checksum": "49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d",
+          "scope": "compile",
+          "selectedVersion": "1.15",
+          "id": "commons-codec:commons-codec:1.15",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": []
+        },
+        {
+          "groupId": "commons-io",
+          "artifactId": "commons-io",
+          "version": "2.11.0",
+          "checksumAlgorithm": "sha1",
+          "checksum": "a2503f302b11ebde7ebc3df41daebe0e4eea3689",
+          "scope": "compile",
+          "selectedVersion": "2.11.0",
+          "id": "commons-io:commons-io:2.11.0",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": []
+        },
+        {
+          "groupId": "io.github.classgraph",
+          "artifactId": "classgraph",
+          "version": "4.8.154",
+          "checksumAlgorithm": "sha1",
+          "checksum": "c778f5a480b71d698b1d98c677315204dc9927f9",
+          "scope": "compile",
+          "selectedVersion": "4.8.154",
+          "id": "io.github.classgraph:classgraph:4.8.154",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": []
+        },
+        {
+          "groupId": "io.netty",
+          "artifactId": "netty-buffer",
+          "version": "4.1.89.Final",
+          "checksumAlgorithm": "sha1",
+          "checksum": "b1d3dbf69a75eaa8793c7e00cff2851dac9fd725",
+          "scope": "compile",
+          "selectedVersion": "4.1.89.Final",
+          "id": "io.netty:netty-buffer:4.1.89.Final",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": [
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-common",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "c0c80bfe45cc85da5030ea8fc64071e28d0f6f5f",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-common:4.1.89.Final",
+              "parent": "io.netty:netty-buffer:4.1.89.Final",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "io.netty",
+          "artifactId": "netty-codec",
+          "version": "4.1.89.Final",
+          "checksumAlgorithm": "sha1",
+          "checksum": "f03a649ffa405ca4c802a8bfcc2abfe70ae485ca",
+          "scope": "compile",
+          "selectedVersion": "4.1.89.Final",
+          "id": "io.netty:netty-codec:4.1.89.Final",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": [
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-buffer",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "b1d3dbf69a75eaa8793c7e00cff2851dac9fd725",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-buffer:4.1.89.Final",
+              "parent": "io.netty:netty-codec:4.1.89.Final",
+              "children": []
+            },
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-common",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "c0c80bfe45cc85da5030ea8fc64071e28d0f6f5f",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-common:4.1.89.Final",
+              "parent": "io.netty:netty-codec:4.1.89.Final",
+              "children": []
+            },
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-transport",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "e7ff320310eafe302c0dfb9690ae7201ab61ead2",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-transport:4.1.89.Final",
+              "parent": "io.netty:netty-codec:4.1.89.Final",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "io.netty",
+          "artifactId": "netty-codec-http",
+          "version": "4.1.89.Final",
+          "checksumAlgorithm": "sha1",
+          "checksum": "75c46974dce9c730b999e83bbcdab2fc25e85aae",
+          "scope": "compile",
+          "selectedVersion": "4.1.89.Final",
+          "id": "io.netty:netty-codec-http:4.1.89.Final",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": [
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-buffer",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "b1d3dbf69a75eaa8793c7e00cff2851dac9fd725",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-buffer:4.1.89.Final",
+              "parent": "io.netty:netty-codec-http:4.1.89.Final",
+              "children": []
+            },
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-codec",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "f03a649ffa405ca4c802a8bfcc2abfe70ae485ca",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-codec:4.1.89.Final",
+              "parent": "io.netty:netty-codec-http:4.1.89.Final",
+              "children": []
+            },
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-common",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "c0c80bfe45cc85da5030ea8fc64071e28d0f6f5f",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-common:4.1.89.Final",
+              "parent": "io.netty:netty-codec-http:4.1.89.Final",
+              "children": []
+            },
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-handler",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "ced584e9eba5a6b7aad7c6a28a60c13375459f1a",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-handler:4.1.89.Final",
+              "parent": "io.netty:netty-codec-http:4.1.89.Final",
+              "children": []
+            },
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-transport",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "e7ff320310eafe302c0dfb9690ae7201ab61ead2",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-transport:4.1.89.Final",
+              "parent": "io.netty:netty-codec-http:4.1.89.Final",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "io.netty",
+          "artifactId": "netty-codec-http2",
+          "version": "4.1.89.Final",
+          "checksumAlgorithm": "sha1",
+          "checksum": "f524760814dcea13dd40c566bd845e3286cbdbac",
+          "scope": "compile",
+          "selectedVersion": "4.1.89.Final",
+          "id": "io.netty:netty-codec-http2:4.1.89.Final",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": [
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-buffer",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "b1d3dbf69a75eaa8793c7e00cff2851dac9fd725",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-buffer:4.1.89.Final",
+              "parent": "io.netty:netty-codec-http2:4.1.89.Final",
+              "children": []
+            },
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-codec",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "f03a649ffa405ca4c802a8bfcc2abfe70ae485ca",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-codec:4.1.89.Final",
+              "parent": "io.netty:netty-codec-http2:4.1.89.Final",
+              "children": []
+            },
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-codec-http",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "75c46974dce9c730b999e83bbcdab2fc25e85aae",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-codec-http:4.1.89.Final",
+              "parent": "io.netty:netty-codec-http2:4.1.89.Final",
+              "children": []
+            },
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-common",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "c0c80bfe45cc85da5030ea8fc64071e28d0f6f5f",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-common:4.1.89.Final",
+              "parent": "io.netty:netty-codec-http2:4.1.89.Final",
+              "children": []
+            },
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-handler",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "ced584e9eba5a6b7aad7c6a28a60c13375459f1a",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-handler:4.1.89.Final",
+              "parent": "io.netty:netty-codec-http2:4.1.89.Final",
+              "children": []
+            },
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-transport",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "e7ff320310eafe302c0dfb9690ae7201ab61ead2",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-transport:4.1.89.Final",
+              "parent": "io.netty:netty-codec-http2:4.1.89.Final",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "io.netty",
+          "artifactId": "netty-codec-socks",
+          "version": "4.1.89.Final",
+          "checksumAlgorithm": "sha1",
+          "checksum": "17aabd2ec883e5fbd6c3ecd990cb78fc036e015a",
+          "scope": "compile",
+          "selectedVersion": "4.1.89.Final",
+          "id": "io.netty:netty-codec-socks:4.1.89.Final",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": [
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-buffer",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "b1d3dbf69a75eaa8793c7e00cff2851dac9fd725",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-buffer:4.1.89.Final",
+              "parent": "io.netty:netty-codec-socks:4.1.89.Final",
+              "children": []
+            },
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-codec",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "f03a649ffa405ca4c802a8bfcc2abfe70ae485ca",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-codec:4.1.89.Final",
+              "parent": "io.netty:netty-codec-socks:4.1.89.Final",
+              "children": []
+            },
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-common",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "c0c80bfe45cc85da5030ea8fc64071e28d0f6f5f",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-common:4.1.89.Final",
+              "parent": "io.netty:netty-codec-socks:4.1.89.Final",
+              "children": []
+            },
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-transport",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "e7ff320310eafe302c0dfb9690ae7201ab61ead2",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-transport:4.1.89.Final",
+              "parent": "io.netty:netty-codec-socks:4.1.89.Final",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "io.netty",
+          "artifactId": "netty-handler",
+          "version": "4.1.89.Final",
+          "checksumAlgorithm": "sha1",
+          "checksum": "ced584e9eba5a6b7aad7c6a28a60c13375459f1a",
+          "scope": "compile",
+          "selectedVersion": "4.1.89.Final",
+          "id": "io.netty:netty-handler:4.1.89.Final",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": [
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-buffer",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "b1d3dbf69a75eaa8793c7e00cff2851dac9fd725",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-buffer:4.1.89.Final",
+              "parent": "io.netty:netty-handler:4.1.89.Final",
+              "children": []
+            },
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-codec",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "f03a649ffa405ca4c802a8bfcc2abfe70ae485ca",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-codec:4.1.89.Final",
+              "parent": "io.netty:netty-handler:4.1.89.Final",
+              "children": []
+            },
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-common",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "c0c80bfe45cc85da5030ea8fc64071e28d0f6f5f",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-common:4.1.89.Final",
+              "parent": "io.netty:netty-handler:4.1.89.Final",
+              "children": []
+            },
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-resolver",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "686b21bf3488747bc834ee9e60a863f37b71f35e",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-resolver:4.1.89.Final",
+              "parent": "io.netty:netty-handler:4.1.89.Final",
+              "children": [
+                {
+                  "groupId": "io.netty",
+                  "artifactId": "netty-common",
+                  "version": "4.1.89.Final",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "c0c80bfe45cc85da5030ea8fc64071e28d0f6f5f",
+                  "scope": "compile",
+                  "selectedVersion": "4.1.89.Final",
+                  "id": "io.netty:netty-common:4.1.89.Final",
+                  "parent": "io.netty:netty-resolver:4.1.89.Final",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-transport",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "e7ff320310eafe302c0dfb9690ae7201ab61ead2",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-transport:4.1.89.Final",
+              "parent": "io.netty:netty-handler:4.1.89.Final",
+              "children": []
+            },
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-transport-native-unix-common",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "a7717ed61393d5aad202a92bb02f661ed525bf86",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-transport-native-unix-common:4.1.89.Final",
+              "parent": "io.netty:netty-handler:4.1.89.Final",
+              "children": [
+                {
+                  "groupId": "io.netty",
+                  "artifactId": "netty-buffer",
+                  "version": "4.1.89.Final",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "b1d3dbf69a75eaa8793c7e00cff2851dac9fd725",
+                  "scope": "compile",
+                  "selectedVersion": "4.1.89.Final",
+                  "id": "io.netty:netty-buffer:4.1.89.Final",
+                  "parent": "io.netty:netty-transport-native-unix-common:4.1.89.Final",
+                  "children": []
+                },
+                {
+                  "groupId": "io.netty",
+                  "artifactId": "netty-common",
+                  "version": "4.1.89.Final",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "c0c80bfe45cc85da5030ea8fc64071e28d0f6f5f",
+                  "scope": "compile",
+                  "selectedVersion": "4.1.89.Final",
+                  "id": "io.netty:netty-common:4.1.89.Final",
+                  "parent": "io.netty:netty-transport-native-unix-common:4.1.89.Final",
+                  "children": []
+                },
+                {
+                  "groupId": "io.netty",
+                  "artifactId": "netty-transport",
+                  "version": "4.1.89.Final",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "e7ff320310eafe302c0dfb9690ae7201ab61ead2",
+                  "scope": "compile",
+                  "selectedVersion": "4.1.89.Final",
+                  "id": "io.netty:netty-transport:4.1.89.Final",
+                  "parent": "io.netty:netty-transport-native-unix-common:4.1.89.Final",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "groupId": "io.netty",
+          "artifactId": "netty-handler-proxy",
+          "version": "4.1.89.Final",
+          "checksumAlgorithm": "sha1",
+          "checksum": "561cba12be44f90ba3e5110cefecdb785fa199cc",
+          "scope": "compile",
+          "selectedVersion": "4.1.89.Final",
+          "id": "io.netty:netty-handler-proxy:4.1.89.Final",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": [
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-buffer",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "b1d3dbf69a75eaa8793c7e00cff2851dac9fd725",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-buffer:4.1.89.Final",
+              "parent": "io.netty:netty-handler-proxy:4.1.89.Final",
+              "children": []
+            },
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-codec",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "f03a649ffa405ca4c802a8bfcc2abfe70ae485ca",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-codec:4.1.89.Final",
+              "parent": "io.netty:netty-handler-proxy:4.1.89.Final",
+              "children": []
+            },
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-codec-http",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "75c46974dce9c730b999e83bbcdab2fc25e85aae",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-codec-http:4.1.89.Final",
+              "parent": "io.netty:netty-handler-proxy:4.1.89.Final",
+              "children": []
+            },
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-codec-socks",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "17aabd2ec883e5fbd6c3ecd990cb78fc036e015a",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-codec-socks:4.1.89.Final",
+              "parent": "io.netty:netty-handler-proxy:4.1.89.Final",
+              "children": []
+            },
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-common",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "c0c80bfe45cc85da5030ea8fc64071e28d0f6f5f",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-common:4.1.89.Final",
+              "parent": "io.netty:netty-handler-proxy:4.1.89.Final",
+              "children": []
+            },
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-transport",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "e7ff320310eafe302c0dfb9690ae7201ab61ead2",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-transport:4.1.89.Final",
+              "parent": "io.netty:netty-handler-proxy:4.1.89.Final",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "io.netty",
+          "artifactId": "netty-tcnative-boringssl-static",
+          "version": "2.0.56.Final",
+          "checksumAlgorithm": "sha1",
+          "checksum": "6aa4a3f9e415daa973ef3d7efeb8807b15631faf",
+          "scope": "compile",
+          "selectedVersion": "2.0.56.Final",
+          "id": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": [
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-tcnative-boringssl-static",
+              "version": "2.0.56.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "33280e0f44874fb5404f814884e119aea8a1ee56",
+              "scope": "compile",
+              "selectedVersion": "2.0.56.Final",
+              "id": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+              "parent": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+              "children": [
+                {
+                  "groupId": "io.netty",
+                  "artifactId": "netty-tcnative-boringssl-static",
+                  "version": "2.0.56.Final",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "47ca00452886f6026d7bc71d87cdb39fa5144eb1",
+                  "scope": "compile",
+                  "selectedVersion": "2.0.56.Final",
+                  "id": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "parent": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "children": []
+                },
+                {
+                  "groupId": "io.netty",
+                  "artifactId": "netty-tcnative-boringssl-static",
+                  "version": "2.0.56.Final",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "1c7f20cbf0c1fe535e0c073172638a17efc39e50",
+                  "scope": "compile",
+                  "selectedVersion": "2.0.56.Final",
+                  "id": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "parent": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "children": []
+                },
+                {
+                  "groupId": "io.netty",
+                  "artifactId": "netty-tcnative-boringssl-static",
+                  "version": "2.0.56.Final",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "4cfff830c215f1db41d753ddd2c55e396d5785cd",
+                  "scope": "compile",
+                  "selectedVersion": "2.0.56.Final",
+                  "id": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "parent": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "children": []
+                },
+                {
+                  "groupId": "io.netty",
+                  "artifactId": "netty-tcnative-boringssl-static",
+                  "version": "2.0.56.Final",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "6760e8cb6a10964011b8d8fd6ad88ec50c4c47aa",
+                  "scope": "compile",
+                  "selectedVersion": "2.0.56.Final",
+                  "id": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "parent": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-tcnative-boringssl-static",
+              "version": "2.0.56.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "47ca00452886f6026d7bc71d87cdb39fa5144eb1",
+              "scope": "compile",
+              "selectedVersion": "2.0.56.Final",
+              "id": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+              "parent": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+              "children": [
+                {
+                  "groupId": "io.netty",
+                  "artifactId": "netty-tcnative-boringssl-static",
+                  "version": "2.0.56.Final",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "33280e0f44874fb5404f814884e119aea8a1ee56",
+                  "scope": "compile",
+                  "selectedVersion": "2.0.56.Final",
+                  "id": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "parent": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "children": []
+                },
+                {
+                  "groupId": "io.netty",
+                  "artifactId": "netty-tcnative-boringssl-static",
+                  "version": "2.0.56.Final",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "4cfff830c215f1db41d753ddd2c55e396d5785cd",
+                  "scope": "compile",
+                  "selectedVersion": "2.0.56.Final",
+                  "id": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "parent": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "children": []
+                },
+                {
+                  "groupId": "io.netty",
+                  "artifactId": "netty-tcnative-boringssl-static",
+                  "version": "2.0.56.Final",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "6760e8cb6a10964011b8d8fd6ad88ec50c4c47aa",
+                  "scope": "compile",
+                  "selectedVersion": "2.0.56.Final",
+                  "id": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "parent": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "children": []
+                },
+                {
+                  "groupId": "io.netty",
+                  "artifactId": "netty-tcnative-boringssl-static",
+                  "version": "2.0.56.Final",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "1c7f20cbf0c1fe535e0c073172638a17efc39e50",
+                  "scope": "compile",
+                  "selectedVersion": "2.0.56.Final",
+                  "id": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "parent": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-tcnative-boringssl-static",
+              "version": "2.0.56.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "1c7f20cbf0c1fe535e0c073172638a17efc39e50",
+              "scope": "compile",
+              "selectedVersion": "2.0.56.Final",
+              "id": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+              "parent": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+              "children": [
+                {
+                  "groupId": "io.netty",
+                  "artifactId": "netty-tcnative-boringssl-static",
+                  "version": "2.0.56.Final",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "33280e0f44874fb5404f814884e119aea8a1ee56",
+                  "scope": "compile",
+                  "selectedVersion": "2.0.56.Final",
+                  "id": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "parent": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "children": []
+                },
+                {
+                  "groupId": "io.netty",
+                  "artifactId": "netty-tcnative-boringssl-static",
+                  "version": "2.0.56.Final",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "6760e8cb6a10964011b8d8fd6ad88ec50c4c47aa",
+                  "scope": "compile",
+                  "selectedVersion": "2.0.56.Final",
+                  "id": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "parent": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "children": []
+                },
+                {
+                  "groupId": "io.netty",
+                  "artifactId": "netty-tcnative-boringssl-static",
+                  "version": "2.0.56.Final",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "47ca00452886f6026d7bc71d87cdb39fa5144eb1",
+                  "scope": "compile",
+                  "selectedVersion": "2.0.56.Final",
+                  "id": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "parent": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "children": []
+                },
+                {
+                  "groupId": "io.netty",
+                  "artifactId": "netty-tcnative-boringssl-static",
+                  "version": "2.0.56.Final",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "4cfff830c215f1db41d753ddd2c55e396d5785cd",
+                  "scope": "compile",
+                  "selectedVersion": "2.0.56.Final",
+                  "id": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "parent": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-tcnative-boringssl-static",
+              "version": "2.0.56.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "6760e8cb6a10964011b8d8fd6ad88ec50c4c47aa",
+              "scope": "compile",
+              "selectedVersion": "2.0.56.Final",
+              "id": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+              "parent": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+              "children": [
+                {
+                  "groupId": "io.netty",
+                  "artifactId": "netty-tcnative-boringssl-static",
+                  "version": "2.0.56.Final",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "4cfff830c215f1db41d753ddd2c55e396d5785cd",
+                  "scope": "compile",
+                  "selectedVersion": "2.0.56.Final",
+                  "id": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "parent": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "children": []
+                },
+                {
+                  "groupId": "io.netty",
+                  "artifactId": "netty-tcnative-boringssl-static",
+                  "version": "2.0.56.Final",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "47ca00452886f6026d7bc71d87cdb39fa5144eb1",
+                  "scope": "compile",
+                  "selectedVersion": "2.0.56.Final",
+                  "id": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "parent": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "children": []
+                },
+                {
+                  "groupId": "io.netty",
+                  "artifactId": "netty-tcnative-boringssl-static",
+                  "version": "2.0.56.Final",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "33280e0f44874fb5404f814884e119aea8a1ee56",
+                  "scope": "compile",
+                  "selectedVersion": "2.0.56.Final",
+                  "id": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "parent": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "children": []
+                },
+                {
+                  "groupId": "io.netty",
+                  "artifactId": "netty-tcnative-boringssl-static",
+                  "version": "2.0.56.Final",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "1c7f20cbf0c1fe535e0c073172638a17efc39e50",
+                  "scope": "compile",
+                  "selectedVersion": "2.0.56.Final",
+                  "id": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "parent": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-tcnative-boringssl-static",
+              "version": "2.0.56.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "4cfff830c215f1db41d753ddd2c55e396d5785cd",
+              "scope": "compile",
+              "selectedVersion": "2.0.56.Final",
+              "id": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+              "parent": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+              "children": [
+                {
+                  "groupId": "io.netty",
+                  "artifactId": "netty-tcnative-boringssl-static",
+                  "version": "2.0.56.Final",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "47ca00452886f6026d7bc71d87cdb39fa5144eb1",
+                  "scope": "compile",
+                  "selectedVersion": "2.0.56.Final",
+                  "id": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "parent": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "children": []
+                },
+                {
+                  "groupId": "io.netty",
+                  "artifactId": "netty-tcnative-boringssl-static",
+                  "version": "2.0.56.Final",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "1c7f20cbf0c1fe535e0c073172638a17efc39e50",
+                  "scope": "compile",
+                  "selectedVersion": "2.0.56.Final",
+                  "id": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "parent": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "children": []
+                },
+                {
+                  "groupId": "io.netty",
+                  "artifactId": "netty-tcnative-boringssl-static",
+                  "version": "2.0.56.Final",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "6760e8cb6a10964011b8d8fd6ad88ec50c4c47aa",
+                  "scope": "compile",
+                  "selectedVersion": "2.0.56.Final",
+                  "id": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "parent": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "children": []
+                },
+                {
+                  "groupId": "io.netty",
+                  "artifactId": "netty-tcnative-boringssl-static",
+                  "version": "2.0.56.Final",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "33280e0f44874fb5404f814884e119aea8a1ee56",
+                  "scope": "compile",
+                  "selectedVersion": "2.0.56.Final",
+                  "id": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "parent": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-tcnative-classes",
+              "version": "2.0.56.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "df828615a3a4b4b44d7f41aa3d22b744fe7170d",
+              "scope": "compile",
+              "selectedVersion": "2.0.56.Final",
+              "id": "io.netty:netty-tcnative-classes:2.0.56.Final",
+              "parent": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "io.netty",
+          "artifactId": "netty-transport",
+          "version": "4.1.89.Final",
+          "checksumAlgorithm": "sha1",
+          "checksum": "e7ff320310eafe302c0dfb9690ae7201ab61ead2",
+          "scope": "compile",
+          "selectedVersion": "4.1.89.Final",
+          "id": "io.netty:netty-transport:4.1.89.Final",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": [
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-buffer",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "b1d3dbf69a75eaa8793c7e00cff2851dac9fd725",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-buffer:4.1.89.Final",
+              "parent": "io.netty:netty-transport:4.1.89.Final",
+              "children": []
+            },
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-common",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "c0c80bfe45cc85da5030ea8fc64071e28d0f6f5f",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-common:4.1.89.Final",
+              "parent": "io.netty:netty-transport:4.1.89.Final",
+              "children": []
+            },
+            {
+              "groupId": "io.netty",
+              "artifactId": "netty-resolver",
+              "version": "4.1.89.Final",
+              "checksumAlgorithm": "sha1",
+              "checksum": "686b21bf3488747bc834ee9e60a863f37b71f35e",
+              "scope": "compile",
+              "selectedVersion": "4.1.89.Final",
+              "id": "io.netty:netty-resolver:4.1.89.Final",
+              "parent": "io.netty:netty-transport:4.1.89.Final",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "io.prometheus",
+          "artifactId": "simpleclient",
+          "version": "0.16.0",
+          "checksumAlgorithm": "sha1",
+          "checksum": "28b0eaf7c500c506976da8d0fc9cad6c278e8d87",
+          "scope": "compile",
+          "selectedVersion": "0.16.0",
+          "id": "io.prometheus:simpleclient:0.16.0",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": [
+            {
+              "groupId": "io.prometheus",
+              "artifactId": "simpleclient_tracer_otel",
+              "version": "0.16.0",
+              "checksumAlgorithm": "sha1",
+              "checksum": "cc3d2b7b7cb6f077e3b1ee1d3e99eb54fddfa151",
+              "scope": "compile",
+              "selectedVersion": "0.16.0",
+              "id": "io.prometheus:simpleclient_tracer_otel:0.16.0",
+              "parent": "io.prometheus:simpleclient:0.16.0",
+              "children": [
+                {
+                  "groupId": "io.prometheus",
+                  "artifactId": "simpleclient_tracer_common",
+                  "version": "0.16.0",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "dec00ef7c6155c4ca1109ec8248f7ff58d8f6cd3",
+                  "scope": "compile",
+                  "selectedVersion": "0.16.0",
+                  "id": "io.prometheus:simpleclient_tracer_common:0.16.0",
+                  "parent": "io.prometheus:simpleclient_tracer_otel:0.16.0",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "groupId": "io.prometheus",
+              "artifactId": "simpleclient_tracer_otel_agent",
+              "version": "0.16.0",
+              "checksumAlgorithm": "sha1",
+              "checksum": "9d724771e339ff7ec6cd7c0cc170d3470904c5",
+              "scope": "compile",
+              "selectedVersion": "0.16.0",
+              "id": "io.prometheus:simpleclient_tracer_otel_agent:0.16.0",
+              "parent": "io.prometheus:simpleclient:0.16.0",
+              "children": [
+                {
+                  "groupId": "io.prometheus",
+                  "artifactId": "simpleclient_tracer_common",
+                  "version": "0.16.0",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "dec00ef7c6155c4ca1109ec8248f7ff58d8f6cd3",
+                  "scope": "compile",
+                  "selectedVersion": "0.16.0",
+                  "id": "io.prometheus:simpleclient_tracer_common:0.16.0",
+                  "parent": "io.prometheus:simpleclient_tracer_otel_agent:0.16.0",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "groupId": "io.prometheus",
+          "artifactId": "simpleclient_httpserver",
+          "version": "0.16.0",
+          "checksumAlgorithm": "sha1",
+          "checksum": "2c23f53ca22d7d8885fc4522ddcadcfe7f01a783",
+          "scope": "compile",
+          "selectedVersion": "0.16.0",
+          "id": "io.prometheus:simpleclient_httpserver:0.16.0",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": [
+            {
+              "groupId": "io.prometheus",
+              "artifactId": "simpleclient",
+              "version": "0.16.0",
+              "checksumAlgorithm": "sha1",
+              "checksum": "28b0eaf7c500c506976da8d0fc9cad6c278e8d87",
+              "scope": "compile",
+              "selectedVersion": "0.16.0",
+              "id": "io.prometheus:simpleclient:0.16.0",
+              "parent": "io.prometheus:simpleclient_httpserver:0.16.0",
+              "children": []
+            },
+            {
+              "groupId": "io.prometheus",
+              "artifactId": "simpleclient_common",
+              "version": "0.16.0",
+              "checksumAlgorithm": "sha1",
+              "checksum": "a09a8c790a20309b942a9fdbfe77da22407096e6",
+              "scope": "compile",
+              "selectedVersion": "0.16.0",
+              "id": "io.prometheus:simpleclient_common:0.16.0",
+              "parent": "io.prometheus:simpleclient_httpserver:0.16.0",
+              "children": [
+                {
+                  "groupId": "io.prometheus",
+                  "artifactId": "simpleclient",
+                  "version": "0.16.0",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "28b0eaf7c500c506976da8d0fc9cad6c278e8d87",
+                  "scope": "compile",
+                  "selectedVersion": "0.16.0",
+                  "id": "io.prometheus:simpleclient:0.16.0",
+                  "parent": "io.prometheus:simpleclient_common:0.16.0",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "groupId": "io.swagger.parser.v3",
+          "artifactId": "swagger-parser",
+          "version": "2.1.12",
+          "checksumAlgorithm": "sha1",
+          "checksum": "3d31131b4d219532c7687adfff80d7776f1de2d2",
+          "scope": "compile",
+          "selectedVersion": "2.1.12",
+          "id": "io.swagger.parser.v3:swagger-parser:2.1.12",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": [
+            {
+              "groupId": "commons-io",
+              "artifactId": "commons-io",
+              "version": "2.11.0",
+              "checksumAlgorithm": "sha1",
+              "checksum": "a2503f302b11ebde7ebc3df41daebe0e4eea3689",
+              "scope": "compile",
+              "selectedVersion": "2.11.0",
+              "id": "commons-io:commons-io:2.11.0",
+              "parent": "io.swagger.parser.v3:swagger-parser:2.1.12",
+              "children": []
+            },
+            {
+              "groupId": "io.swagger.parser.v3",
+              "artifactId": "swagger-parser-v2-converter",
+              "version": "2.1.12",
+              "checksumAlgorithm": "sha1",
+              "checksum": "217bed2facd007cd7815e43d7734860e907f5cea",
+              "scope": "compile",
+              "selectedVersion": "2.1.12",
+              "id": "io.swagger.parser.v3:swagger-parser-v2-converter:2.1.12",
+              "parent": "io.swagger.parser.v3:swagger-parser:2.1.12",
+              "children": [
+                {
+                  "groupId": "io.swagger",
+                  "artifactId": "swagger-compat-spec-parser",
+                  "version": "1.0.64",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "7de51ee08afc6fb2305ad92cb082b5be25c19f24",
+                  "scope": "compile",
+                  "selectedVersion": "1.0.64",
+                  "id": "io.swagger:swagger-compat-spec-parser:1.0.64",
+                  "parent": "io.swagger.parser.v3:swagger-parser-v2-converter:2.1.12",
+                  "children": [
+                    {
+                      "groupId": "com.github.java-json-tools",
+                      "artifactId": "json-patch",
+                      "version": "1.13",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "c8b72249e50fe778e7df223e5b1fed1931a4a688",
+                      "scope": "compile",
+                      "selectedVersion": "1.13",
+                      "id": "com.github.java-json-tools:json-patch:1.13",
+                      "parent": "io.swagger:swagger-compat-spec-parser:1.0.64",
+                      "children": [
+                        {
+                          "groupId": "com.fasterxml.jackson.core",
+                          "artifactId": "jackson-databind",
+                          "version": "2.14.2",
+                          "checksumAlgorithm": "sha1",
+                          "checksum": "1e71fddbc80bb86f71a6345ac1e8ab8a00e7134",
+                          "scope": "compile",
+                          "selectedVersion": "2.14.2",
+                          "id": "com.fasterxml.jackson.core:jackson-databind:2.14.2",
+                          "parent": "com.github.java-json-tools:json-patch:1.13",
+                          "children": []
+                        },
+                        {
+                          "groupId": "com.github.java-json-tools",
+                          "artifactId": "jackson-coreutils",
+                          "version": "2.0",
+                          "checksumAlgorithm": "sha1",
+                          "checksum": "6374371261b91b829d10f21256b2feefdf8f0a78",
+                          "scope": "compile",
+                          "selectedVersion": "2.0",
+                          "id": "com.github.java-json-tools:jackson-coreutils:2.0",
+                          "parent": "com.github.java-json-tools:json-patch:1.13",
+                          "children": [
+                            {
+                              "groupId": "com.fasterxml.jackson.core",
+                              "artifactId": "jackson-databind",
+                              "version": "2.14.2",
+                              "checksumAlgorithm": "sha1",
+                              "checksum": "1e71fddbc80bb86f71a6345ac1e8ab8a00e7134",
+                              "scope": "runtime",
+                              "selectedVersion": "2.14.2",
+                              "id": "com.fasterxml.jackson.core:jackson-databind:2.14.2",
+                              "parent": "com.github.java-json-tools:jackson-coreutils:2.0",
+                              "children": []
+                            },
+                            {
+                              "groupId": "com.github.java-json-tools",
+                              "artifactId": "msg-simple",
+                              "version": "1.2",
+                              "checksumAlgorithm": "sha1",
+                              "checksum": "a06afa2d5d75c98e54ab370107930978fc3f9937",
+                              "scope": "runtime",
+                              "selectedVersion": "1.2",
+                              "id": "com.github.java-json-tools:msg-simple:1.2",
+                              "parent": "com.github.java-json-tools:jackson-coreutils:2.0",
+                              "children": []
+                            },
+                            {
+                              "groupId": "com.google.code.findbugs",
+                              "artifactId": "jsr305",
+                              "version": "3.0.2",
+                              "checksumAlgorithm": "sha1",
+                              "checksum": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d",
+                              "scope": "runtime",
+                              "selectedVersion": "3.0.2",
+                              "id": "com.google.code.findbugs:jsr305:3.0.2",
+                              "parent": "com.github.java-json-tools:jackson-coreutils:2.0",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "groupId": "com.github.java-json-tools",
+                          "artifactId": "msg-simple",
+                          "version": "1.2",
+                          "checksumAlgorithm": "sha1",
+                          "checksum": "a06afa2d5d75c98e54ab370107930978fc3f9937",
+                          "scope": "compile",
+                          "selectedVersion": "1.2",
+                          "id": "com.github.java-json-tools:msg-simple:1.2",
+                          "parent": "com.github.java-json-tools:json-patch:1.13",
+                          "children": [
+                            {
+                              "groupId": "com.github.java-json-tools",
+                              "artifactId": "btf",
+                              "version": "1.3",
+                              "checksumAlgorithm": "sha1",
+                              "checksum": "6cf5405e214cbc83337a107cdef8401fb6aa6383",
+                              "scope": "compile",
+                              "selectedVersion": "1.3",
+                              "id": "com.github.java-json-tools:btf:1.3",
+                              "parent": "com.github.java-json-tools:msg-simple:1.2",
+                              "children": [
+                                {
+                                  "groupId": "com.google.code.findbugs",
+                                  "artifactId": "jsr305",
+                                  "version": "3.0.2",
+                                  "checksumAlgorithm": "sha1",
+                                  "checksum": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d",
+                                  "scope": "compile",
+                                  "selectedVersion": "3.0.2",
+                                  "id": "com.google.code.findbugs:jsr305:3.0.2",
+                                  "parent": "com.github.java-json-tools:btf:1.3",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "groupId": "com.google.code.findbugs",
+                              "artifactId": "jsr305",
+                              "version": "3.0.2",
+                              "checksumAlgorithm": "sha1",
+                              "checksum": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d",
+                              "scope": "compile",
+                              "selectedVersion": "3.0.2",
+                              "id": "com.google.code.findbugs:jsr305:3.0.2",
+                              "parent": "com.github.java-json-tools:msg-simple:1.2",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "groupId": "com.github.java-json-tools",
+                      "artifactId": "json-schema-validator",
+                      "version": "2.2.14",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "10c42918adc1fd4454e83bb21365f30df497a076",
+                      "scope": "compile",
+                      "selectedVersion": "2.2.14",
+                      "id": "com.github.java-json-tools:json-schema-validator:2.2.14",
+                      "parent": "io.swagger:swagger-compat-spec-parser:1.0.64",
+                      "children": [
+                        {
+                          "groupId": "com.github.java-json-tools",
+                          "artifactId": "jackson-coreutils-equivalence",
+                          "version": "1.0",
+                          "checksumAlgorithm": "sha1",
+                          "checksum": "8b928cf1f95dc5fe6b1648f5da93befab031da19",
+                          "scope": "compile",
+                          "selectedVersion": "1.0",
+                          "id": "com.github.java-json-tools:jackson-coreutils-equivalence:1.0",
+                          "parent": "com.github.java-json-tools:json-schema-validator:2.2.14",
+                          "children": [
+                            {
+                              "groupId": "com.fasterxml.jackson.core",
+                              "artifactId": "jackson-databind",
+                              "version": "2.14.2",
+                              "checksumAlgorithm": "sha1",
+                              "checksum": "1e71fddbc80bb86f71a6345ac1e8ab8a00e7134",
+                              "scope": "runtime",
+                              "selectedVersion": "2.14.2",
+                              "id": "com.fasterxml.jackson.core:jackson-databind:2.14.2",
+                              "parent": "com.github.java-json-tools:jackson-coreutils-equivalence:1.0",
+                              "children": []
+                            },
+                            {
+                              "groupId": "com.github.java-json-tools",
+                              "artifactId": "jackson-coreutils",
+                              "version": "2.0",
+                              "checksumAlgorithm": "sha1",
+                              "checksum": "6374371261b91b829d10f21256b2feefdf8f0a78",
+                              "scope": "runtime",
+                              "selectedVersion": "2.0",
+                              "id": "com.github.java-json-tools:jackson-coreutils:2.0",
+                              "parent": "com.github.java-json-tools:jackson-coreutils-equivalence:1.0",
+                              "children": []
+                            },
+                            {
+                              "groupId": "com.google.guava",
+                              "artifactId": "guava",
+                              "version": "31.1-jre",
+                              "checksumAlgorithm": "sha1",
+                              "checksum": "60458f877d055d0c9114d9e1a2efb737b4bc282c",
+                              "scope": "runtime",
+                              "selectedVersion": "31.1-jre",
+                              "id": "com.google.guava:guava:31.1-jre",
+                              "parent": "com.github.java-json-tools:jackson-coreutils-equivalence:1.0",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "groupId": "com.github.java-json-tools",
+                          "artifactId": "json-schema-core",
+                          "version": "1.2.14",
+                          "checksumAlgorithm": "sha1",
+                          "checksum": "39d4efcf7e538684200fea15e08d47d0198c19fb",
+                          "scope": "compile",
+                          "selectedVersion": "1.2.14",
+                          "id": "com.github.java-json-tools:json-schema-core:1.2.14",
+                          "parent": "com.github.java-json-tools:json-schema-validator:2.2.14",
+                          "children": [
+                            {
+                              "groupId": "com.fasterxml.jackson.core",
+                              "artifactId": "jackson-databind",
+                              "version": "2.14.2",
+                              "checksumAlgorithm": "sha1",
+                              "checksum": "1e71fddbc80bb86f71a6345ac1e8ab8a00e7134",
+                              "scope": "compile",
+                              "selectedVersion": "2.14.2",
+                              "id": "com.fasterxml.jackson.core:jackson-databind:2.14.2",
+                              "parent": "com.github.java-json-tools:json-schema-core:1.2.14",
+                              "children": []
+                            },
+                            {
+                              "groupId": "com.github.java-json-tools",
+                              "artifactId": "jackson-coreutils",
+                              "version": "2.0",
+                              "checksumAlgorithm": "sha1",
+                              "checksum": "6374371261b91b829d10f21256b2feefdf8f0a78",
+                              "scope": "compile",
+                              "selectedVersion": "2.0",
+                              "id": "com.github.java-json-tools:jackson-coreutils:2.0",
+                              "parent": "com.github.java-json-tools:json-schema-core:1.2.14",
+                              "children": []
+                            },
+                            {
+                              "groupId": "com.github.java-json-tools",
+                              "artifactId": "jackson-coreutils-equivalence",
+                              "version": "1.0",
+                              "checksumAlgorithm": "sha1",
+                              "checksum": "8b928cf1f95dc5fe6b1648f5da93befab031da19",
+                              "scope": "compile",
+                              "selectedVersion": "1.0",
+                              "id": "com.github.java-json-tools:jackson-coreutils-equivalence:1.0",
+                              "parent": "com.github.java-json-tools:json-schema-core:1.2.14",
+                              "children": []
+                            },
+                            {
+                              "groupId": "com.github.java-json-tools",
+                              "artifactId": "uri-template",
+                              "version": "0.10",
+                              "checksumAlgorithm": "sha1",
+                              "checksum": "6e8cf7b04f5ed679c76f15e0b19918906d84dbc4",
+                              "scope": "compile",
+                              "selectedVersion": "0.10",
+                              "id": "com.github.java-json-tools:uri-template:0.10",
+                              "parent": "com.github.java-json-tools:json-schema-core:1.2.14",
+                              "children": [
+                                {
+                                  "groupId": "com.github.java-json-tools",
+                                  "artifactId": "msg-simple",
+                                  "version": "1.2",
+                                  "checksumAlgorithm": "sha1",
+                                  "checksum": "a06afa2d5d75c98e54ab370107930978fc3f9937",
+                                  "scope": "compile",
+                                  "selectedVersion": "1.2",
+                                  "id": "com.github.java-json-tools:msg-simple:1.2",
+                                  "parent": "com.github.java-json-tools:uri-template:0.10",
+                                  "children": []
+                                },
+                                {
+                                  "groupId": "com.google.code.findbugs",
+                                  "artifactId": "jsr305",
+                                  "version": "3.0.2",
+                                  "checksumAlgorithm": "sha1",
+                                  "checksum": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d",
+                                  "scope": "compile",
+                                  "selectedVersion": "3.0.2",
+                                  "id": "com.google.code.findbugs:jsr305:3.0.2",
+                                  "parent": "com.github.java-json-tools:uri-template:0.10",
+                                  "children": []
+                                },
+                                {
+                                  "groupId": "com.google.guava",
+                                  "artifactId": "guava",
+                                  "version": "31.1-jre",
+                                  "checksumAlgorithm": "sha1",
+                                  "checksum": "60458f877d055d0c9114d9e1a2efb737b4bc282c",
+                                  "scope": "compile",
+                                  "selectedVersion": "31.1-jre",
+                                  "id": "com.google.guava:guava:31.1-jre",
+                                  "parent": "com.github.java-json-tools:uri-template:0.10",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "groupId": "com.google.code.findbugs",
+                              "artifactId": "jsr305",
+                              "version": "3.0.2",
+                              "checksumAlgorithm": "sha1",
+                              "checksum": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d",
+                              "scope": "compile",
+                              "selectedVersion": "3.0.2",
+                              "id": "com.google.code.findbugs:jsr305:3.0.2",
+                              "parent": "com.github.java-json-tools:json-schema-core:1.2.14",
+                              "children": []
+                            },
+                            {
+                              "groupId": "com.google.guava",
+                              "artifactId": "guava",
+                              "version": "31.1-jre",
+                              "checksumAlgorithm": "sha1",
+                              "checksum": "60458f877d055d0c9114d9e1a2efb737b4bc282c",
+                              "scope": "compile",
+                              "selectedVersion": "31.1-jre",
+                              "id": "com.google.guava:guava:31.1-jre",
+                              "parent": "com.github.java-json-tools:json-schema-core:1.2.14",
+                              "children": []
+                            },
+                            {
+                              "groupId": "org.mozilla",
+                              "artifactId": "rhino",
+                              "version": "1.7.14",
+                              "checksumAlgorithm": "sha1",
+                              "checksum": "24d091b80d513846293c00350f46d85f71797aff",
+                              "scope": "compile",
+                              "selectedVersion": "1.7.14",
+                              "id": "org.mozilla:rhino:1.7.14",
+                              "parent": "com.github.java-json-tools:json-schema-core:1.2.14",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "groupId": "com.google.code.findbugs",
+                          "artifactId": "jsr305",
+                          "version": "3.0.2",
+                          "checksumAlgorithm": "sha1",
+                          "checksum": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d",
+                          "scope": "compile",
+                          "selectedVersion": "3.0.2",
+                          "id": "com.google.code.findbugs:jsr305:3.0.2",
+                          "parent": "com.github.java-json-tools:json-schema-validator:2.2.14",
+                          "children": []
+                        },
+                        {
+                          "groupId": "com.google.guava",
+                          "artifactId": "guava",
+                          "version": "31.1-jre",
+                          "checksumAlgorithm": "sha1",
+                          "checksum": "60458f877d055d0c9114d9e1a2efb737b4bc282c",
+                          "scope": "compile",
+                          "selectedVersion": "31.1-jre",
+                          "id": "com.google.guava:guava:31.1-jre",
+                          "parent": "com.github.java-json-tools:json-schema-validator:2.2.14",
+                          "children": []
+                        },
+                        {
+                          "groupId": "com.googlecode.libphonenumber",
+                          "artifactId": "libphonenumber",
+                          "version": "8.11.1",
+                          "checksumAlgorithm": "sha1",
+                          "checksum": "6bb6115fd5a0bf00964afec358496faea66b7db5",
+                          "scope": "compile",
+                          "selectedVersion": "8.11.1",
+                          "id": "com.googlecode.libphonenumber:libphonenumber:8.11.1",
+                          "parent": "com.github.java-json-tools:json-schema-validator:2.2.14",
+                          "children": []
+                        },
+                        {
+                          "groupId": "com.sun.mail",
+                          "artifactId": "mailapi",
+                          "version": "1.6.2",
+                          "checksumAlgorithm": "sha1",
+                          "checksum": "208b6439dfbe6713c384ebf54ecd62cd4423cc50",
+                          "scope": "compile",
+                          "selectedVersion": "1.6.2",
+                          "id": "com.sun.mail:mailapi:1.6.2",
+                          "parent": "com.github.java-json-tools:json-schema-validator:2.2.14",
+                          "children": []
+                        },
+                        {
+                          "groupId": "joda-time",
+                          "artifactId": "joda-time",
+                          "version": "2.10.5",
+                          "checksumAlgorithm": "sha1",
+                          "checksum": "7f1d89817cd20a32444d5ab4160f035ab9b864e7",
+                          "scope": "compile",
+                          "selectedVersion": "2.10.5",
+                          "id": "joda-time:joda-time:2.10.5",
+                          "parent": "com.github.java-json-tools:json-schema-validator:2.2.14",
+                          "children": []
+                        },
+                        {
+                          "groupId": "net.sf.jopt-simple",
+                          "artifactId": "jopt-simple",
+                          "version": "5.0.4",
+                          "checksumAlgorithm": "sha1",
+                          "checksum": "4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c",
+                          "scope": "compile",
+                          "selectedVersion": "5.0.4",
+                          "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
+                          "parent": "com.github.java-json-tools:json-schema-validator:2.2.14",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "groupId": "io.swagger",
+                      "artifactId": "swagger-core",
+                      "version": "1.6.9",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "553f8fc8a0ce6a0f5e250791baa832b2a48e24fc",
+                      "scope": "compile",
+                      "selectedVersion": "1.6.9",
+                      "id": "io.swagger:swagger-core:1.6.9",
+                      "parent": "io.swagger:swagger-compat-spec-parser:1.0.64",
+                      "children": []
+                    },
+                    {
+                      "groupId": "io.swagger",
+                      "artifactId": "swagger-parser",
+                      "version": "1.0.64",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "d9087a3440a74f42155bb51e783f6d97f8c78ce",
+                      "scope": "compile",
+                      "selectedVersion": "1.0.64",
+                      "id": "io.swagger:swagger-parser:1.0.64",
+                      "parent": "io.swagger:swagger-compat-spec-parser:1.0.64",
+                      "children": []
+                    },
+                    {
+                      "groupId": "org.apache.httpcomponents",
+                      "artifactId": "httpclient",
+                      "version": "4.5.14",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "1194890e6f56ec29177673f2f12d0b8e627dec98",
+                      "scope": "compile",
+                      "selectedVersion": "4.5.14",
+                      "id": "org.apache.httpcomponents:httpclient:4.5.14",
+                      "parent": "io.swagger:swagger-compat-spec-parser:1.0.64",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "groupId": "io.swagger",
+                  "artifactId": "swagger-core",
+                  "version": "1.6.9",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "553f8fc8a0ce6a0f5e250791baa832b2a48e24fc",
+                  "scope": "compile",
+                  "selectedVersion": "1.6.9",
+                  "id": "io.swagger:swagger-core:1.6.9",
+                  "parent": "io.swagger.parser.v3:swagger-parser-v2-converter:2.1.12",
+                  "children": [
+                    {
+                      "groupId": "com.fasterxml.jackson.core",
+                      "artifactId": "jackson-annotations",
+                      "version": "2.14.2",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "a7aae9525864930723e3453ab799521fdfd9d873",
+                      "scope": "compile",
+                      "selectedVersion": "2.14.2",
+                      "id": "com.fasterxml.jackson.core:jackson-annotations:2.14.2",
+                      "parent": "io.swagger:swagger-core:1.6.9",
+                      "children": []
+                    },
+                    {
+                      "groupId": "com.fasterxml.jackson.core",
+                      "artifactId": "jackson-databind",
+                      "version": "2.14.2",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "1e71fddbc80bb86f71a6345ac1e8ab8a00e7134",
+                      "scope": "compile",
+                      "selectedVersion": "2.14.2",
+                      "id": "com.fasterxml.jackson.core:jackson-databind:2.14.2",
+                      "parent": "io.swagger:swagger-core:1.6.9",
+                      "children": []
+                    },
+                    {
+                      "groupId": "com.fasterxml.jackson.dataformat",
+                      "artifactId": "jackson-dataformat-yaml",
+                      "version": "2.14.2",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "cc9a25c1f4212562dcb2fa33dd8ae179ba0e6a4e",
+                      "scope": "compile",
+                      "selectedVersion": "2.14.2",
+                      "id": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.14.2",
+                      "parent": "io.swagger:swagger-core:1.6.9",
+                      "children": []
+                    },
+                    {
+                      "groupId": "com.google.guava",
+                      "artifactId": "guava",
+                      "version": "31.1-jre",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "60458f877d055d0c9114d9e1a2efb737b4bc282c",
+                      "scope": "compile",
+                      "selectedVersion": "31.1-jre",
+                      "id": "com.google.guava:guava:31.1-jre",
+                      "parent": "io.swagger:swagger-core:1.6.9",
+                      "children": []
+                    },
+                    {
+                      "groupId": "io.swagger",
+                      "artifactId": "swagger-models",
+                      "version": "1.6.9",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "c088411568dc0edcb3b3c2248b404e2adc797aa",
+                      "scope": "compile",
+                      "selectedVersion": "1.6.9",
+                      "id": "io.swagger:swagger-models:1.6.9",
+                      "parent": "io.swagger:swagger-core:1.6.9",
+                      "children": [
+                        {
+                          "groupId": "com.fasterxml.jackson.core",
+                          "artifactId": "jackson-annotations",
+                          "version": "2.14.2",
+                          "checksumAlgorithm": "sha1",
+                          "checksum": "a7aae9525864930723e3453ab799521fdfd9d873",
+                          "scope": "compile",
+                          "selectedVersion": "2.14.2",
+                          "id": "com.fasterxml.jackson.core:jackson-annotations:2.14.2",
+                          "parent": "io.swagger:swagger-models:1.6.9",
+                          "children": []
+                        },
+                        {
+                          "groupId": "io.swagger",
+                          "artifactId": "swagger-annotations",
+                          "version": "1.6.9",
+                          "checksumAlgorithm": "sha1",
+                          "checksum": "87bcf5951ca8acefa30a2caffc965f2e850eaa9",
+                          "scope": "compile",
+                          "selectedVersion": "1.6.9",
+                          "id": "io.swagger:swagger-annotations:1.6.9",
+                          "parent": "io.swagger:swagger-models:1.6.9",
+                          "children": []
+                        },
+                        {
+                          "groupId": "org.slf4j",
+                          "artifactId": "slf4j-api",
+                          "version": "2.0.6",
+                          "checksumAlgorithm": "sha1",
+                          "checksum": "88c40d8b4f33326f19a7d3c0aaf2c7e8721d4953",
+                          "scope": "compile",
+                          "selectedVersion": "2.0.6",
+                          "id": "org.slf4j:slf4j-api:2.0.6",
+                          "parent": "io.swagger:swagger-models:1.6.9",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "groupId": "org.apache.commons",
+                      "artifactId": "commons-lang3",
+                      "version": "3.12.0",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e",
+                      "scope": "compile",
+                      "selectedVersion": "3.12.0",
+                      "id": "org.apache.commons:commons-lang3:3.12.0",
+                      "parent": "io.swagger:swagger-core:1.6.9",
+                      "children": []
+                    },
+                    {
+                      "groupId": "org.slf4j",
+                      "artifactId": "slf4j-api",
+                      "version": "2.0.6",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "88c40d8b4f33326f19a7d3c0aaf2c7e8721d4953",
+                      "scope": "compile",
+                      "selectedVersion": "2.0.6",
+                      "id": "org.slf4j:slf4j-api:2.0.6",
+                      "parent": "io.swagger:swagger-core:1.6.9",
+                      "children": []
+                    },
+                    {
+                      "groupId": "org.yaml",
+                      "artifactId": "snakeyaml",
+                      "version": "1.33",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "2cd0a87ff7df953f810c344bdf2fe3340b954c69",
+                      "scope": "compile",
+                      "selectedVersion": "1.33",
+                      "id": "org.yaml:snakeyaml:1.33",
+                      "parent": "io.swagger:swagger-core:1.6.9",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "groupId": "io.swagger",
+                  "artifactId": "swagger-parser",
+                  "version": "1.0.64",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "d9087a3440a74f42155bb51e783f6d97f8c78ce",
+                  "scope": "compile",
+                  "selectedVersion": "1.0.64",
+                  "id": "io.swagger:swagger-parser:1.0.64",
+                  "parent": "io.swagger.parser.v3:swagger-parser-v2-converter:2.1.12",
+                  "children": [
+                    {
+                      "groupId": "commons-io",
+                      "artifactId": "commons-io",
+                      "version": "2.11.0",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "a2503f302b11ebde7ebc3df41daebe0e4eea3689",
+                      "scope": "compile",
+                      "selectedVersion": "2.11.0",
+                      "id": "commons-io:commons-io:2.11.0",
+                      "parent": "io.swagger:swagger-parser:1.0.64",
+                      "children": []
+                    },
+                    {
+                      "groupId": "io.swagger",
+                      "artifactId": "swagger-core",
+                      "version": "1.6.9",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "553f8fc8a0ce6a0f5e250791baa832b2a48e24fc",
+                      "scope": "compile",
+                      "selectedVersion": "1.6.9",
+                      "id": "io.swagger:swagger-core:1.6.9",
+                      "parent": "io.swagger:swagger-parser:1.0.64",
+                      "children": []
+                    },
+                    {
+                      "groupId": "org.yaml",
+                      "artifactId": "snakeyaml",
+                      "version": "1.33",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "2cd0a87ff7df953f810c344bdf2fe3340b954c69",
+                      "scope": "compile",
+                      "selectedVersion": "1.33",
+                      "id": "org.yaml:snakeyaml:1.33",
+                      "parent": "io.swagger:swagger-parser:1.0.64",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "groupId": "io.swagger.core.v3",
+                  "artifactId": "swagger-models",
+                  "version": "2.2.8",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "2a9cee980d3c7c9545db1438cdb4691f166e6954",
+                  "scope": "compile",
+                  "selectedVersion": "2.2.8",
+                  "id": "io.swagger.core.v3:swagger-models:2.2.8",
+                  "parent": "io.swagger.parser.v3:swagger-parser-v2-converter:2.1.12",
+                  "children": [
+                    {
+                      "groupId": "com.fasterxml.jackson.core",
+                      "artifactId": "jackson-annotations",
+                      "version": "2.14.2",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "a7aae9525864930723e3453ab799521fdfd9d873",
+                      "scope": "compile",
+                      "selectedVersion": "2.14.2",
+                      "id": "com.fasterxml.jackson.core:jackson-annotations:2.14.2",
+                      "parent": "io.swagger.core.v3:swagger-models:2.2.8",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "groupId": "io.swagger.parser.v3",
+                  "artifactId": "swagger-parser-core",
+                  "version": "2.1.12",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "1cd6d5fcfc0eb6ea71ce15012f2904247b4f7d8b",
+                  "scope": "compile",
+                  "selectedVersion": "2.1.12",
+                  "id": "io.swagger.parser.v3:swagger-parser-core:2.1.12",
+                  "parent": "io.swagger.parser.v3:swagger-parser-v2-converter:2.1.12",
+                  "children": [
+                    {
+                      "groupId": "io.swagger.core.v3",
+                      "artifactId": "swagger-models",
+                      "version": "2.2.8",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "2a9cee980d3c7c9545db1438cdb4691f166e6954",
+                      "scope": "compile",
+                      "selectedVersion": "2.2.8",
+                      "id": "io.swagger.core.v3:swagger-models:2.2.8",
+                      "parent": "io.swagger.parser.v3:swagger-parser-core:2.1.12",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "groupId": "io.swagger.parser.v3",
+                  "artifactId": "swagger-parser-v3",
+                  "version": "2.1.12",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "a2407e0676983574d25e529f3eab3c00550f4e25",
+                  "scope": "compile",
+                  "selectedVersion": "2.1.12",
+                  "id": "io.swagger.parser.v3:swagger-parser-v3:2.1.12",
+                  "parent": "io.swagger.parser.v3:swagger-parser-v2-converter:2.1.12",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "groupId": "io.swagger.parser.v3",
+              "artifactId": "swagger-parser-v3",
+              "version": "2.1.12",
+              "checksumAlgorithm": "sha1",
+              "checksum": "a2407e0676983574d25e529f3eab3c00550f4e25",
+              "scope": "compile",
+              "selectedVersion": "2.1.12",
+              "id": "io.swagger.parser.v3:swagger-parser-v3:2.1.12",
+              "parent": "io.swagger.parser.v3:swagger-parser:2.1.12",
+              "children": [
+                {
+                  "groupId": "com.fasterxml.jackson.core",
+                  "artifactId": "jackson-annotations",
+                  "version": "2.14.2",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "a7aae9525864930723e3453ab799521fdfd9d873",
+                  "scope": "compile",
+                  "selectedVersion": "2.14.2",
+                  "id": "com.fasterxml.jackson.core:jackson-annotations:2.14.2",
+                  "parent": "io.swagger.parser.v3:swagger-parser-v3:2.1.12",
+                  "children": []
+                },
+                {
+                  "groupId": "com.fasterxml.jackson.core",
+                  "artifactId": "jackson-databind",
+                  "version": "2.14.2",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "1e71fddbc80bb86f71a6345ac1e8ab8a00e7134",
+                  "scope": "compile",
+                  "selectedVersion": "2.14.2",
+                  "id": "com.fasterxml.jackson.core:jackson-databind:2.14.2",
+                  "parent": "io.swagger.parser.v3:swagger-parser-v3:2.1.12",
+                  "children": []
+                },
+                {
+                  "groupId": "com.fasterxml.jackson.dataformat",
+                  "artifactId": "jackson-dataformat-yaml",
+                  "version": "2.14.2",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "cc9a25c1f4212562dcb2fa33dd8ae179ba0e6a4e",
+                  "scope": "compile",
+                  "selectedVersion": "2.14.2",
+                  "id": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.14.2",
+                  "parent": "io.swagger.parser.v3:swagger-parser-v3:2.1.12",
+                  "children": [
+                    {
+                      "groupId": "com.fasterxml.jackson.core",
+                      "artifactId": "jackson-core",
+                      "version": "2.14.2",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "f804090e6399ce0cf78242db086017512dd71fcc",
+                      "scope": "compile",
+                      "selectedVersion": "2.14.2",
+                      "id": "com.fasterxml.jackson.core:jackson-core:2.14.2",
+                      "parent": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.14.2",
+                      "children": []
+                    },
+                    {
+                      "groupId": "com.fasterxml.jackson.core",
+                      "artifactId": "jackson-databind",
+                      "version": "2.14.2",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "1e71fddbc80bb86f71a6345ac1e8ab8a00e7134",
+                      "scope": "compile",
+                      "selectedVersion": "2.14.2",
+                      "id": "com.fasterxml.jackson.core:jackson-databind:2.14.2",
+                      "parent": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.14.2",
+                      "children": []
+                    },
+                    {
+                      "groupId": "org.yaml",
+                      "artifactId": "snakeyaml",
+                      "version": "1.33",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "2cd0a87ff7df953f810c344bdf2fe3340b954c69",
+                      "scope": "compile",
+                      "selectedVersion": "1.33",
+                      "id": "org.yaml:snakeyaml:1.33",
+                      "parent": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.14.2",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "groupId": "commons-io",
+                  "artifactId": "commons-io",
+                  "version": "2.11.0",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "a2503f302b11ebde7ebc3df41daebe0e4eea3689",
+                  "scope": "compile",
+                  "selectedVersion": "2.11.0",
+                  "id": "commons-io:commons-io:2.11.0",
+                  "parent": "io.swagger.parser.v3:swagger-parser-v3:2.1.12",
+                  "children": []
+                },
+                {
+                  "groupId": "io.swagger.core.v3",
+                  "artifactId": "swagger-core",
+                  "version": "2.2.8",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "c97d0e6f14d0122f42f47ead589e6b9c07c6c1b3",
+                  "scope": "compile",
+                  "selectedVersion": "2.2.8",
+                  "id": "io.swagger.core.v3:swagger-core:2.2.8",
+                  "parent": "io.swagger.parser.v3:swagger-parser-v3:2.1.12",
+                  "children": [
+                    {
+                      "groupId": "com.fasterxml.jackson.core",
+                      "artifactId": "jackson-annotations",
+                      "version": "2.14.2",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "a7aae9525864930723e3453ab799521fdfd9d873",
+                      "scope": "compile",
+                      "selectedVersion": "2.14.2",
+                      "id": "com.fasterxml.jackson.core:jackson-annotations:2.14.2",
+                      "parent": "io.swagger.core.v3:swagger-core:2.2.8",
+                      "children": []
+                    },
+                    {
+                      "groupId": "com.fasterxml.jackson.core",
+                      "artifactId": "jackson-databind",
+                      "version": "2.14.2",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "1e71fddbc80bb86f71a6345ac1e8ab8a00e7134",
+                      "scope": "compile",
+                      "selectedVersion": "2.14.2",
+                      "id": "com.fasterxml.jackson.core:jackson-databind:2.14.2",
+                      "parent": "io.swagger.core.v3:swagger-core:2.2.8",
+                      "children": []
+                    },
+                    {
+                      "groupId": "com.fasterxml.jackson.dataformat",
+                      "artifactId": "jackson-dataformat-yaml",
+                      "version": "2.14.2",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "cc9a25c1f4212562dcb2fa33dd8ae179ba0e6a4e",
+                      "scope": "compile",
+                      "selectedVersion": "2.14.2",
+                      "id": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.14.2",
+                      "parent": "io.swagger.core.v3:swagger-core:2.2.8",
+                      "children": []
+                    },
+                    {
+                      "groupId": "com.fasterxml.jackson.datatype",
+                      "artifactId": "jackson-datatype-jsr310",
+                      "version": "2.14.0",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "171c5831341883b1cebbbf5aafba62c0fca33b95",
+                      "scope": "compile",
+                      "selectedVersion": "2.14.0",
+                      "id": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.14.0",
+                      "parent": "io.swagger.core.v3:swagger-core:2.2.8",
+                      "children": [
+                        {
+                          "groupId": "com.fasterxml.jackson.core",
+                          "artifactId": "jackson-annotations",
+                          "version": "2.14.2",
+                          "checksumAlgorithm": "sha1",
+                          "checksum": "a7aae9525864930723e3453ab799521fdfd9d873",
+                          "scope": "compile",
+                          "selectedVersion": "2.14.2",
+                          "id": "com.fasterxml.jackson.core:jackson-annotations:2.14.2",
+                          "parent": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.14.0",
+                          "children": []
+                        },
+                        {
+                          "groupId": "com.fasterxml.jackson.core",
+                          "artifactId": "jackson-core",
+                          "version": "2.14.2",
+                          "checksumAlgorithm": "sha1",
+                          "checksum": "f804090e6399ce0cf78242db086017512dd71fcc",
+                          "scope": "compile",
+                          "selectedVersion": "2.14.2",
+                          "id": "com.fasterxml.jackson.core:jackson-core:2.14.2",
+                          "parent": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.14.0",
+                          "children": []
+                        },
+                        {
+                          "groupId": "com.fasterxml.jackson.core",
+                          "artifactId": "jackson-databind",
+                          "version": "2.14.2",
+                          "checksumAlgorithm": "sha1",
+                          "checksum": "1e71fddbc80bb86f71a6345ac1e8ab8a00e7134",
+                          "scope": "compile",
+                          "selectedVersion": "2.14.2",
+                          "id": "com.fasterxml.jackson.core:jackson-databind:2.14.2",
+                          "parent": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.14.0",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "groupId": "io.swagger.core.v3",
+                      "artifactId": "swagger-annotations",
+                      "version": "2.2.8",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "6b14c60519512cd627d59423f109949bea203727",
+                      "scope": "compile",
+                      "selectedVersion": "2.2.8",
+                      "id": "io.swagger.core.v3:swagger-annotations:2.2.8",
+                      "parent": "io.swagger.core.v3:swagger-core:2.2.8",
+                      "children": []
+                    },
+                    {
+                      "groupId": "io.swagger.core.v3",
+                      "artifactId": "swagger-models",
+                      "version": "2.2.8",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "2a9cee980d3c7c9545db1438cdb4691f166e6954",
+                      "scope": "compile",
+                      "selectedVersion": "2.2.8",
+                      "id": "io.swagger.core.v3:swagger-models:2.2.8",
+                      "parent": "io.swagger.core.v3:swagger-core:2.2.8",
+                      "children": []
+                    },
+                    {
+                      "groupId": "jakarta.validation",
+                      "artifactId": "jakarta.validation-api",
+                      "version": "2.0.2",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "5eacc6522521f7eacb081f95cee1e231648461e7",
+                      "scope": "compile",
+                      "selectedVersion": "2.0.2",
+                      "id": "jakarta.validation:jakarta.validation-api:2.0.2",
+                      "parent": "io.swagger.core.v3:swagger-core:2.2.8",
+                      "children": []
+                    },
+                    {
+                      "groupId": "jakarta.xml.bind",
+                      "artifactId": "jakarta.xml.bind-api",
+                      "version": "3.0.1",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "5257932df36ff3e4e6de50429dde946490a6a800",
+                      "scope": "compile",
+                      "selectedVersion": "3.0.1",
+                      "id": "jakarta.xml.bind:jakarta.xml.bind-api:3.0.1",
+                      "parent": "io.swagger.core.v3:swagger-core:2.2.8",
+                      "children": []
+                    },
+                    {
+                      "groupId": "org.apache.commons",
+                      "artifactId": "commons-lang3",
+                      "version": "3.12.0",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e",
+                      "scope": "compile",
+                      "selectedVersion": "3.12.0",
+                      "id": "org.apache.commons:commons-lang3:3.12.0",
+                      "parent": "io.swagger.core.v3:swagger-core:2.2.8",
+                      "children": []
+                    },
+                    {
+                      "groupId": "org.slf4j",
+                      "artifactId": "slf4j-api",
+                      "version": "2.0.6",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "88c40d8b4f33326f19a7d3c0aaf2c7e8721d4953",
+                      "scope": "compile",
+                      "selectedVersion": "2.0.6",
+                      "id": "org.slf4j:slf4j-api:2.0.6",
+                      "parent": "io.swagger.core.v3:swagger-core:2.2.8",
+                      "children": []
+                    },
+                    {
+                      "groupId": "org.yaml",
+                      "artifactId": "snakeyaml",
+                      "version": "1.33",
+                      "checksumAlgorithm": "sha1",
+                      "checksum": "2cd0a87ff7df953f810c344bdf2fe3340b954c69",
+                      "scope": "compile",
+                      "selectedVersion": "1.33",
+                      "id": "org.yaml:snakeyaml:1.33",
+                      "parent": "io.swagger.core.v3:swagger-core:2.2.8",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "groupId": "io.swagger.core.v3",
+                  "artifactId": "swagger-models",
+                  "version": "2.2.8",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "2a9cee980d3c7c9545db1438cdb4691f166e6954",
+                  "scope": "compile",
+                  "selectedVersion": "2.2.8",
+                  "id": "io.swagger.core.v3:swagger-models:2.2.8",
+                  "parent": "io.swagger.parser.v3:swagger-parser-v3:2.1.12",
+                  "children": []
+                },
+                {
+                  "groupId": "io.swagger.parser.v3",
+                  "artifactId": "swagger-parser-core",
+                  "version": "2.1.12",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "1cd6d5fcfc0eb6ea71ce15012f2904247b4f7d8b",
+                  "scope": "compile",
+                  "selectedVersion": "2.1.12",
+                  "id": "io.swagger.parser.v3:swagger-parser-core:2.1.12",
+                  "parent": "io.swagger.parser.v3:swagger-parser-v3:2.1.12",
+                  "children": []
+                },
+                {
+                  "groupId": "org.yaml",
+                  "artifactId": "snakeyaml",
+                  "version": "1.33",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "2cd0a87ff7df953f810c344bdf2fe3340b954c69",
+                  "scope": "compile",
+                  "selectedVersion": "1.33",
+                  "id": "org.yaml:snakeyaml:1.33",
+                  "parent": "io.swagger.parser.v3:swagger-parser-v3:2.1.12",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "groupId": "org.yaml",
+              "artifactId": "snakeyaml",
+              "version": "1.33",
+              "checksumAlgorithm": "sha1",
+              "checksum": "2cd0a87ff7df953f810c344bdf2fe3340b954c69",
+              "scope": "compile",
+              "selectedVersion": "1.33",
+              "id": "org.yaml:snakeyaml:1.33",
+              "parent": "io.swagger.parser.v3:swagger-parser:2.1.12",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "jakarta.xml.bind",
+          "artifactId": "jakarta.xml.bind-api",
+          "version": "3.0.1",
+          "checksumAlgorithm": "sha1",
+          "checksum": "5257932df36ff3e4e6de50429dde946490a6a800",
+          "scope": "compile",
+          "selectedVersion": "3.0.1",
+          "id": "jakarta.xml.bind:jakarta.xml.bind-api:3.0.1",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": [
+            {
+              "groupId": "com.sun.activation",
+              "artifactId": "jakarta.activation",
+              "version": "2.0.1",
+              "checksumAlgorithm": "sha1",
+              "checksum": "828b80e886a52bb09fe41ff410b10b342f533ce1",
+              "scope": "compile",
+              "selectedVersion": "2.0.1",
+              "id": "com.sun.activation:jakarta.activation:2.0.1",
+              "parent": "jakarta.xml.bind:jakarta.xml.bind-api:3.0.1",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "javax.servlet",
+          "artifactId": "javax.servlet-api",
+          "version": "4.0.1",
+          "checksumAlgorithm": "sha1",
+          "checksum": "a27082684a2ff0bf397666c3943496c44541d1ca",
+          "scope": "compile",
+          "selectedVersion": "4.0.1",
+          "id": "javax.servlet:javax.servlet-api:4.0.1",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": []
+        },
+        {
+          "groupId": "net.javacrumbs.json-unit",
+          "artifactId": "json-unit-core",
+          "version": "2.36.1",
+          "checksumAlgorithm": "sha1",
+          "checksum": "aad5dbf02b6ee79ec6ff97f603b390b00f38655b",
+          "scope": "compile",
+          "selectedVersion": "2.36.1",
+          "id": "net.javacrumbs.json-unit:json-unit-core:2.36.1",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": [
+            {
+              "groupId": "org.hamcrest",
+              "artifactId": "hamcrest-core",
+              "version": "2.2",
+              "checksumAlgorithm": "sha1",
+              "checksum": "3f2bd07716a31c395e2837254f37f21f0f0ab24b",
+              "scope": "compile",
+              "selectedVersion": "2.2",
+              "id": "org.hamcrest:hamcrest-core:2.2",
+              "parent": "net.javacrumbs.json-unit:json-unit-core:2.36.1",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "org.apache.commons",
+          "artifactId": "commons-lang3",
+          "version": "3.12.0",
+          "checksumAlgorithm": "sha1",
+          "checksum": "c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e",
+          "scope": "compile",
+          "selectedVersion": "3.12.0",
+          "id": "org.apache.commons:commons-lang3:3.12.0",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": []
+        },
+        {
+          "groupId": "org.apache.commons",
+          "artifactId": "commons-text",
+          "version": "1.10.0",
+          "checksumAlgorithm": "sha1",
+          "checksum": "3363381aef8cef2dbc1023b3e3a9433b08b64e01",
+          "scope": "compile",
+          "selectedVersion": "1.10.0",
+          "id": "org.apache.commons:commons-text:1.10.0",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": []
+        },
+        {
+          "groupId": "org.apache.velocity",
+          "artifactId": "velocity-engine-core",
+          "version": "2.3",
+          "checksumAlgorithm": "sha1",
+          "checksum": "e2133b723d0e42be74880d34de6bf6538ea7f915",
+          "scope": "compile",
+          "selectedVersion": "2.3",
+          "id": "org.apache.velocity:velocity-engine-core:2.3",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": [
+            {
+              "groupId": "org.slf4j",
+              "artifactId": "slf4j-api",
+              "version": "2.0.6",
+              "checksumAlgorithm": "sha1",
+              "checksum": "88c40d8b4f33326f19a7d3c0aaf2c7e8721d4953",
+              "scope": "compile",
+              "selectedVersion": "2.0.6",
+              "id": "org.slf4j:slf4j-api:2.0.6",
+              "parent": "org.apache.velocity:velocity-engine-core:2.3",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "org.apache.velocity",
+          "artifactId": "velocity-engine-scripting",
+          "version": "2.3",
+          "checksumAlgorithm": "sha1",
+          "checksum": "4661456076cb5ae057be3104680015f1ab5397",
+          "scope": "compile",
+          "selectedVersion": "2.3",
+          "id": "org.apache.velocity:velocity-engine-scripting:2.3",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": [
+            {
+              "groupId": "org.apache.velocity",
+              "artifactId": "velocity-engine-core",
+              "version": "2.3",
+              "checksumAlgorithm": "sha1",
+              "checksum": "e2133b723d0e42be74880d34de6bf6538ea7f915",
+              "scope": "compile",
+              "selectedVersion": "2.3",
+              "id": "org.apache.velocity:velocity-engine-core:2.3",
+              "parent": "org.apache.velocity:velocity-engine-scripting:2.3",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "org.apache.velocity.tools",
+          "artifactId": "velocity-tools-generic",
+          "version": "3.1",
+          "checksumAlgorithm": "sha1",
+          "checksum": "7aaa49086a64cd9dab967a8437cc03abbfad655",
+          "scope": "compile",
+          "selectedVersion": "3.1",
+          "id": "org.apache.velocity.tools:velocity-tools-generic:3.1",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": [
+            {
+              "groupId": "com.github.cliftonlabs",
+              "artifactId": "json-simple",
+              "version": "3.0.2",
+              "checksumAlgorithm": "sha1",
+              "checksum": "2337afdb06134a12fc0239299c3ceb2e9c209516",
+              "scope": "compile",
+              "selectedVersion": "3.0.2",
+              "id": "com.github.cliftonlabs:json-simple:3.0.2",
+              "parent": "org.apache.velocity.tools:velocity-tools-generic:3.1",
+              "children": []
+            },
+            {
+              "groupId": "commons-beanutils",
+              "artifactId": "commons-beanutils",
+              "version": "1.9.4",
+              "checksumAlgorithm": "sha1",
+              "checksum": "d52b9abcd97f38c81342bb7e7ae1eee9b73cba51",
+              "scope": "compile",
+              "selectedVersion": "1.9.4",
+              "id": "commons-beanutils:commons-beanutils:1.9.4",
+              "parent": "org.apache.velocity.tools:velocity-tools-generic:3.1",
+              "children": [
+                {
+                  "groupId": "commons-collections",
+                  "artifactId": "commons-collections",
+                  "version": "3.2.2",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5",
+                  "scope": "compile",
+                  "selectedVersion": "3.2.2",
+                  "id": "commons-collections:commons-collections:3.2.2",
+                  "parent": "commons-beanutils:commons-beanutils:1.9.4",
+                  "children": []
+                },
+                {
+                  "groupId": "commons-logging",
+                  "artifactId": "commons-logging",
+                  "version": "1.2",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "4bfc12adfe4842bf07b657f0369c4cb522955686",
+                  "scope": "compile",
+                  "selectedVersion": "1.2",
+                  "id": "commons-logging:commons-logging:1.2",
+                  "parent": "commons-beanutils:commons-beanutils:1.9.4",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "groupId": "org.apache.commons",
+              "artifactId": "commons-digester3",
+              "version": "3.2",
+              "checksumAlgorithm": "sha1",
+              "checksum": "c3f68c5ff25ec5204470fd8fdf4cb8feff5e8a79",
+              "scope": "compile",
+              "selectedVersion": "3.2",
+              "id": "org.apache.commons:commons-digester3:3.2",
+              "parent": "org.apache.velocity.tools:velocity-tools-generic:3.1",
+              "children": [
+                {
+                  "groupId": "commons-beanutils",
+                  "artifactId": "commons-beanutils",
+                  "version": "1.9.4",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "d52b9abcd97f38c81342bb7e7ae1eee9b73cba51",
+                  "scope": "compile",
+                  "selectedVersion": "1.9.4",
+                  "id": "commons-beanutils:commons-beanutils:1.9.4",
+                  "parent": "org.apache.commons:commons-digester3:3.2",
+                  "children": []
+                },
+                {
+                  "groupId": "commons-logging",
+                  "artifactId": "commons-logging",
+                  "version": "1.2",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "4bfc12adfe4842bf07b657f0369c4cb522955686",
+                  "scope": "compile",
+                  "selectedVersion": "1.2",
+                  "id": "commons-logging:commons-logging:1.2",
+                  "parent": "org.apache.commons:commons-digester3:3.2",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "groupId": "org.apache.commons",
+              "artifactId": "commons-lang3",
+              "version": "3.12.0",
+              "checksumAlgorithm": "sha1",
+              "checksum": "c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e",
+              "scope": "compile",
+              "selectedVersion": "3.12.0",
+              "id": "org.apache.commons:commons-lang3:3.12.0",
+              "parent": "org.apache.velocity.tools:velocity-tools-generic:3.1",
+              "children": []
+            },
+            {
+              "groupId": "org.apache.velocity",
+              "artifactId": "velocity-engine-core",
+              "version": "2.3",
+              "checksumAlgorithm": "sha1",
+              "checksum": "e2133b723d0e42be74880d34de6bf6538ea7f915",
+              "scope": "compile",
+              "selectedVersion": "2.3",
+              "id": "org.apache.velocity:velocity-engine-core:2.3",
+              "parent": "org.apache.velocity.tools:velocity-tools-generic:3.1",
+              "children": []
+            },
+            {
+              "groupId": "org.slf4j",
+              "artifactId": "slf4j-api",
+              "version": "2.0.6",
+              "checksumAlgorithm": "sha1",
+              "checksum": "88c40d8b4f33326f19a7d3c0aaf2c7e8721d4953",
+              "scope": "compile",
+              "selectedVersion": "2.0.6",
+              "id": "org.slf4j:slf4j-api:2.0.6",
+              "parent": "org.apache.velocity.tools:velocity-tools-generic:3.1",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "org.bouncycastle",
+          "artifactId": "bcpkix-jdk18on",
+          "version": "1.72",
+          "checksumAlgorithm": "sha1",
+          "checksum": "bb3fdb5162ccd5085e8d7e57fada4d8eaa571f5a",
+          "scope": "compile",
+          "selectedVersion": "1.72",
+          "id": "org.bouncycastle:bcpkix-jdk18on:1.72",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": [
+            {
+              "groupId": "org.bouncycastle",
+              "artifactId": "bcprov-jdk18on",
+              "version": "1.72",
+              "checksumAlgorithm": "sha1",
+              "checksum": "d8dc62c28a3497d29c93fee3e71c00b27dff41b4",
+              "scope": "compile",
+              "selectedVersion": "1.72",
+              "id": "org.bouncycastle:bcprov-jdk18on:1.72",
+              "parent": "org.bouncycastle:bcpkix-jdk18on:1.72",
+              "children": []
+            },
+            {
+              "groupId": "org.bouncycastle",
+              "artifactId": "bcutil-jdk18on",
+              "version": "1.72",
+              "checksumAlgorithm": "sha1",
+              "checksum": "41f19a69ada3b06fa48781120d8bebe1ba955c77",
+              "scope": "compile",
+              "selectedVersion": "1.72",
+              "id": "org.bouncycastle:bcutil-jdk18on:1.72",
+              "parent": "org.bouncycastle:bcpkix-jdk18on:1.72",
+              "children": [
+                {
+                  "groupId": "org.bouncycastle",
+                  "artifactId": "bcprov-jdk18on",
+                  "version": "1.72",
+                  "checksumAlgorithm": "sha1",
+                  "checksum": "d8dc62c28a3497d29c93fee3e71c00b27dff41b4",
+                  "scope": "compile",
+                  "selectedVersion": "1.72",
+                  "id": "org.bouncycastle:bcprov-jdk18on:1.72",
+                  "parent": "org.bouncycastle:bcutil-jdk18on:1.72",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "groupId": "org.bouncycastle",
+          "artifactId": "bcprov-jdk18on",
+          "version": "1.72",
+          "checksumAlgorithm": "sha1",
+          "checksum": "d8dc62c28a3497d29c93fee3e71c00b27dff41b4",
+          "scope": "compile",
+          "selectedVersion": "1.72",
+          "id": "org.bouncycastle:bcprov-jdk18on:1.72",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": []
+        },
+        {
+          "groupId": "org.slf4j",
+          "artifactId": "slf4j-api",
+          "version": "2.0.6",
+          "checksumAlgorithm": "sha1",
+          "checksum": "88c40d8b4f33326f19a7d3c0aaf2c7e8721d4953",
+          "scope": "compile",
+          "selectedVersion": "2.0.6",
+          "id": "org.slf4j:slf4j-api:2.0.6",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": []
+        },
+        {
+          "groupId": "org.xmlunit",
+          "artifactId": "xmlunit-core",
+          "version": "2.9.1",
+          "checksumAlgorithm": "sha1",
+          "checksum": "e5833662d9a1279a37da3ef6f62a1da29fcd68c4",
+          "scope": "compile",
+          "selectedVersion": "2.9.1",
+          "id": "org.xmlunit:xmlunit-core:2.9.1",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": [
+            {
+              "groupId": "jakarta.xml.bind",
+              "artifactId": "jakarta.xml.bind-api",
+              "version": "3.0.1",
+              "checksumAlgorithm": "sha1",
+              "checksum": "5257932df36ff3e4e6de50429dde946490a6a800",
+              "scope": "compile",
+              "selectedVersion": "3.0.1",
+              "id": "jakarta.xml.bind:jakarta.xml.bind-api:3.0.1",
+              "parent": "org.xmlunit:xmlunit-core:2.9.1",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "org.xmlunit",
+          "artifactId": "xmlunit-placeholders",
+          "version": "2.9.1",
+          "checksumAlgorithm": "sha1",
+          "checksum": "fe8d827ae12ac684a852418b94814f34694bf0b",
+          "scope": "compile",
+          "selectedVersion": "2.9.1",
+          "id": "org.xmlunit:xmlunit-placeholders:2.9.1",
+          "parent": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "children": [
+            {
+              "groupId": "org.xmlunit",
+              "artifactId": "xmlunit-core",
+              "version": "2.9.1",
+              "checksumAlgorithm": "sha1",
+              "checksum": "e5833662d9a1279a37da3ef6f62a1da29fcd68c4",
+              "scope": "compile",
+              "selectedVersion": "2.9.1",
+              "id": "org.xmlunit:xmlunit-core:2.9.1",
+              "parent": "org.xmlunit:xmlunit-placeholders:2.9.1",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "groupId": "org.mock-server",
+      "artifactId": "mockserver-integration-testing",
+      "version": "5.15.1-SNAPSHOT",
+      "checksumAlgorithm": "sha1",
+      "checksum": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "scope": "test",
+      "selectedVersion": "5.15.1-SNAPSHOT",
+      "id": "org.mock-server:mockserver-integration-testing:5.15.1-SNAPSHOT",
+      "children": [
+        {
+          "groupId": "com.google.guava",
+          "artifactId": "guava",
+          "version": "31.1-jre",
+          "checksumAlgorithm": "sha1",
+          "checksum": "60458f877d055d0c9114d9e1a2efb737b4bc282c",
+          "scope": "test",
+          "selectedVersion": "31.1-jre",
+          "id": "com.google.guava:guava:31.1-jre",
+          "parent": "org.mock-server:mockserver-integration-testing:5.15.1-SNAPSHOT",
+          "children": []
+        },
+        {
+          "groupId": "commons-io",
+          "artifactId": "commons-io",
+          "version": "2.11.0",
+          "checksumAlgorithm": "sha1",
+          "checksum": "a2503f302b11ebde7ebc3df41daebe0e4eea3689",
+          "scope": "test",
+          "selectedVersion": "2.11.0",
+          "id": "commons-io:commons-io:2.11.0",
+          "parent": "org.mock-server:mockserver-integration-testing:5.15.1-SNAPSHOT",
+          "children": []
+        },
+        {
+          "groupId": "io.netty",
+          "artifactId": "netty-buffer",
+          "version": "4.1.89.Final",
+          "checksumAlgorithm": "sha1",
+          "checksum": "b1d3dbf69a75eaa8793c7e00cff2851dac9fd725",
+          "scope": "test",
+          "selectedVersion": "4.1.89.Final",
+          "id": "io.netty:netty-buffer:4.1.89.Final",
+          "parent": "org.mock-server:mockserver-integration-testing:5.15.1-SNAPSHOT",
+          "children": []
+        },
+        {
+          "groupId": "io.netty",
+          "artifactId": "netty-codec",
+          "version": "4.1.89.Final",
+          "checksumAlgorithm": "sha1",
+          "checksum": "f03a649ffa405ca4c802a8bfcc2abfe70ae485ca",
+          "scope": "test",
+          "selectedVersion": "4.1.89.Final",
+          "id": "io.netty:netty-codec:4.1.89.Final",
+          "parent": "org.mock-server:mockserver-integration-testing:5.15.1-SNAPSHOT",
+          "children": []
+        },
+        {
+          "groupId": "io.netty",
+          "artifactId": "netty-codec-http",
+          "version": "4.1.89.Final",
+          "checksumAlgorithm": "sha1",
+          "checksum": "75c46974dce9c730b999e83bbcdab2fc25e85aae",
+          "scope": "test",
+          "selectedVersion": "4.1.89.Final",
+          "id": "io.netty:netty-codec-http:4.1.89.Final",
+          "parent": "org.mock-server:mockserver-integration-testing:5.15.1-SNAPSHOT",
+          "children": []
+        },
+        {
+          "groupId": "io.netty",
+          "artifactId": "netty-common",
+          "version": "4.1.89.Final",
+          "checksumAlgorithm": "sha1",
+          "checksum": "c0c80bfe45cc85da5030ea8fc64071e28d0f6f5f",
+          "scope": "compile",
+          "selectedVersion": "4.1.89.Final",
+          "id": "io.netty:netty-common:4.1.89.Final",
+          "parent": "org.mock-server:mockserver-integration-testing:5.15.1-SNAPSHOT",
+          "children": []
+        },
+        {
+          "groupId": "io.netty",
+          "artifactId": "netty-handler",
+          "version": "4.1.89.Final",
+          "checksumAlgorithm": "sha1",
+          "checksum": "ced584e9eba5a6b7aad7c6a28a60c13375459f1a",
+          "scope": "test",
+          "selectedVersion": "4.1.89.Final",
+          "id": "io.netty:netty-handler:4.1.89.Final",
+          "parent": "org.mock-server:mockserver-integration-testing:5.15.1-SNAPSHOT",
+          "children": []
+        },
+        {
+          "groupId": "io.netty",
+          "artifactId": "netty-tcnative-boringssl-static",
+          "version": "2.0.56.Final",
+          "checksumAlgorithm": "sha1",
+          "checksum": "6aa4a3f9e415daa973ef3d7efeb8807b15631faf",
+          "scope": "test",
+          "selectedVersion": "2.0.56.Final",
+          "id": "io.netty:netty-tcnative-boringssl-static:2.0.56.Final",
+          "parent": "org.mock-server:mockserver-integration-testing:5.15.1-SNAPSHOT",
+          "children": []
+        },
+        {
+          "groupId": "io.netty",
+          "artifactId": "netty-transport",
+          "version": "4.1.89.Final",
+          "checksumAlgorithm": "sha1",
+          "checksum": "e7ff320310eafe302c0dfb9690ae7201ab61ead2",
+          "scope": "test",
+          "selectedVersion": "4.1.89.Final",
+          "id": "io.netty:netty-transport:4.1.89.Final",
+          "parent": "org.mock-server:mockserver-integration-testing:5.15.1-SNAPSHOT",
+          "children": []
+        },
+        {
+          "groupId": "junit",
+          "artifactId": "junit",
+          "version": "4.13.2",
+          "checksumAlgorithm": "sha1",
+          "checksum": "8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12",
+          "scope": "test",
+          "selectedVersion": "4.13.2",
+          "id": "junit:junit:4.13.2",
+          "parent": "org.mock-server:mockserver-integration-testing:5.15.1-SNAPSHOT",
+          "children": []
+        },
+        {
+          "groupId": "org.apache.httpcomponents",
+          "artifactId": "httpclient",
+          "version": "4.5.14",
+          "checksumAlgorithm": "sha1",
+          "checksum": "1194890e6f56ec29177673f2f12d0b8e627dec98",
+          "scope": "compile",
+          "selectedVersion": "4.5.14",
+          "id": "org.apache.httpcomponents:httpclient:4.5.14",
+          "parent": "org.mock-server:mockserver-integration-testing:5.15.1-SNAPSHOT",
+          "children": [
+            {
+              "groupId": "commons-codec",
+              "artifactId": "commons-codec",
+              "version": "1.15",
+              "checksumAlgorithm": "sha1",
+              "checksum": "49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d",
+              "scope": "compile",
+              "selectedVersion": "1.15",
+              "id": "commons-codec:commons-codec:1.15",
+              "parent": "org.apache.httpcomponents:httpclient:4.5.14",
+              "children": []
+            },
+            {
+              "groupId": "commons-logging",
+              "artifactId": "commons-logging",
+              "version": "1.2",
+              "checksumAlgorithm": "sha1",
+              "checksum": "4bfc12adfe4842bf07b657f0369c4cb522955686",
+              "scope": "compile",
+              "selectedVersion": "1.2",
+              "id": "commons-logging:commons-logging:1.2",
+              "parent": "org.apache.httpcomponents:httpclient:4.5.14",
+              "children": []
+            },
+            {
+              "groupId": "org.apache.httpcomponents",
+              "artifactId": "httpcore",
+              "version": "4.4.16",
+              "checksumAlgorithm": "sha1",
+              "checksum": "51cf043c87253c9f58b539c9f7e44c8894223850",
+              "scope": "compile",
+              "selectedVersion": "4.4.16",
+              "id": "org.apache.httpcomponents:httpcore:4.4.16",
+              "parent": "org.apache.httpcomponents:httpclient:4.5.14",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "org.hamcrest",
+          "artifactId": "hamcrest",
+          "version": "2.2",
+          "checksumAlgorithm": "sha1",
+          "checksum": "1820c0968dba3a11a1b30669bb1f01978a91dedc",
+          "scope": "compile",
+          "selectedVersion": "2.2",
+          "id": "org.hamcrest:hamcrest:2.2",
+          "parent": "org.mock-server:mockserver-integration-testing:5.15.1-SNAPSHOT",
+          "children": []
+        },
+        {
+          "groupId": "org.mock-server",
+          "artifactId": "mockserver-client-java",
+          "version": "5.15.1-SNAPSHOT",
+          "checksumAlgorithm": "sha1",
+          "checksum": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "scope": "test",
+          "selectedVersion": "5.15.1-SNAPSHOT",
+          "id": "org.mock-server:mockserver-client-java:5.15.1-SNAPSHOT",
+          "parent": "org.mock-server:mockserver-integration-testing:5.15.1-SNAPSHOT",
+          "children": []
+        },
+        {
+          "groupId": "org.mock-server",
+          "artifactId": "mockserver-core",
+          "version": "5.15.1-SNAPSHOT",
+          "checksumAlgorithm": "sha1",
+          "checksum": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "scope": "test",
+          "selectedVersion": "5.15.1-SNAPSHOT",
+          "id": "org.mock-server:mockserver-core:5.15.1-SNAPSHOT",
+          "parent": "org.mock-server:mockserver-integration-testing:5.15.1-SNAPSHOT",
+          "children": []
+        },
+        {
+          "groupId": "org.mock-server",
+          "artifactId": "mockserver-testing",
+          "version": "5.15.1-SNAPSHOT",
+          "checksumAlgorithm": "sha1",
+          "checksum": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "scope": "test",
+          "selectedVersion": "5.15.1-SNAPSHOT",
+          "id": "org.mock-server:mockserver-testing:5.15.1-SNAPSHOT",
+          "parent": "org.mock-server:mockserver-integration-testing:5.15.1-SNAPSHOT",
+          "children": []
+        },
+        {
+          "groupId": "org.slf4j",
+          "artifactId": "slf4j-api",
+          "version": "2.0.6",
+          "checksumAlgorithm": "sha1",
+          "checksum": "88c40d8b4f33326f19a7d3c0aaf2c7e8721d4953",
+          "scope": "test",
+          "selectedVersion": "2.0.6",
+          "id": "org.slf4j:slf4j-api:2.0.6",
+          "parent": "org.mock-server:mockserver-integration-testing:5.15.1-SNAPSHOT",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "org.mock-server",
+      "artifactId": "mockserver-testing",
+      "version": "5.15.1-SNAPSHOT",
+      "checksumAlgorithm": "sha1",
+      "checksum": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "scope": "test",
+      "selectedVersion": "5.15.1-SNAPSHOT",
+      "id": "org.mock-server:mockserver-testing:5.15.1-SNAPSHOT",
+      "children": [
+        {
+          "groupId": "junit",
+          "artifactId": "junit",
+          "version": "4.13.2",
+          "checksumAlgorithm": "sha1",
+          "checksum": "8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12",
+          "scope": "test",
+          "selectedVersion": "4.13.2",
+          "id": "junit:junit:4.13.2",
+          "parent": "org.mock-server:mockserver-testing:5.15.1-SNAPSHOT",
+          "children": []
+        },
+        {
+          "groupId": "org.hamcrest",
+          "artifactId": "hamcrest",
+          "version": "2.2",
+          "checksumAlgorithm": "sha1",
+          "checksum": "1820c0968dba3a11a1b30669bb1f01978a91dedc",
+          "scope": "test",
+          "selectedVersion": "2.2",
+          "id": "org.hamcrest:hamcrest:2.2",
+          "parent": "org.mock-server:mockserver-testing:5.15.1-SNAPSHOT",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "org.mockito",
+      "artifactId": "mockito-core",
+      "version": "4.11.0",
+      "checksumAlgorithm": "sha1",
+      "checksum": "ce5226440c2ee78915716d4ce3d10aed2dbf26fb",
+      "scope": "test",
+      "selectedVersion": "4.11.0",
+      "id": "org.mockito:mockito-core:4.11.0",
+      "children": [
+        {
+          "groupId": "net.bytebuddy",
+          "artifactId": "byte-buddy",
+          "version": "1.12.19",
+          "checksumAlgorithm": "sha1",
+          "checksum": "178d26e6a95e50502ae16673e08269797f8b254a",
+          "scope": "test",
+          "selectedVersion": "1.12.19",
+          "id": "net.bytebuddy:byte-buddy:1.12.19",
+          "parent": "org.mockito:mockito-core:4.11.0",
+          "children": []
+        },
+        {
+          "groupId": "net.bytebuddy",
+          "artifactId": "byte-buddy-agent",
+          "version": "1.12.19",
+          "checksumAlgorithm": "sha1",
+          "checksum": "450917cf3b358b691a824acf4c67aa89c826f67e",
+          "scope": "test",
+          "selectedVersion": "1.12.19",
+          "id": "net.bytebuddy:byte-buddy-agent:1.12.19",
+          "parent": "org.mockito:mockito-core:4.11.0",
+          "children": []
+        },
+        {
+          "groupId": "org.objenesis",
+          "artifactId": "objenesis",
+          "version": "3.3",
+          "checksumAlgorithm": "sha1",
+          "checksum": "1049c09f1de4331e8193e579448d0916d75b7631",
+          "scope": "test",
+          "selectedVersion": "3.3",
+          "id": "org.objenesis:objenesis:3.3",
+          "parent": "org.mockito:mockito-core:4.11.0",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "org.slf4j",
+      "artifactId": "slf4j-jdk14",
+      "version": "2.0.6",
+      "checksumAlgorithm": "sha1",
+      "checksum": "13056cb341f2d8795120f8027766a058da874f85",
+      "scope": "compile",
+      "selectedVersion": "2.0.6",
+      "id": "org.slf4j:slf4j-jdk14:2.0.6",
+      "children": [
+        {
+          "groupId": "org.slf4j",
+          "artifactId": "slf4j-api",
+          "version": "2.0.6",
+          "checksumAlgorithm": "sha1",
+          "checksum": "88c40d8b4f33326f19a7d3c0aaf2c7e8721d4953",
+          "scope": "compile",
+          "selectedVersion": "2.0.6",
+          "id": "org.slf4j:slf4j-api:2.0.6",
+          "parent": "org.slf4j:slf4j-jdk14:2.0.6",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "org.springframework",
+      "artifactId": "spring-test",
+      "version": "5.3.25",
+      "checksumAlgorithm": "sha1",
+      "checksum": "42a55c25a4da3bc330d8ab3ea7648cd76d0830d4",
+      "scope": "test",
+      "selectedVersion": "5.3.25",
+      "id": "org.springframework:spring-test:5.3.25",
+      "children": [
+        {
+          "groupId": "org.springframework",
+          "artifactId": "spring-core",
+          "version": "5.3.25",
+          "checksumAlgorithm": "sha1",
+          "checksum": "85382e86321227506bf7f97ed80e2ab88bce25f0",
+          "scope": "test",
+          "selectedVersion": "5.3.25",
+          "id": "org.springframework:spring-core:5.3.25",
+          "parent": "org.springframework:spring-test:5.3.25",
+          "children": [
+            {
+              "groupId": "org.springframework",
+              "artifactId": "spring-jcl",
+              "version": "5.3.25",
+              "checksumAlgorithm": "sha1",
+              "checksum": "2e65a986dc7f98b40faed8df1d50db77c0b96c61",
+              "scope": "test",
+              "selectedVersion": "5.3.25",
+              "id": "org.springframework:spring-jcl:5.3.25",
+              "parent": "org.springframework:spring-core:5.3.25",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "groupId": "org.springframework",
+      "artifactId": "spring-web",
+      "version": "5.3.25",
+      "checksumAlgorithm": "sha1",
+      "checksum": "c69815e7931cd3ce7f19cc8028fd1c36626120d6",
+      "scope": "test",
+      "selectedVersion": "5.3.25",
+      "id": "org.springframework:spring-web:5.3.25",
+      "children": [
+        {
+          "groupId": "org.springframework",
+          "artifactId": "spring-beans",
+          "version": "5.3.25",
+          "checksumAlgorithm": "sha1",
+          "checksum": "b3aeae036b4ea1abfa1f9604d452e19664efe5f6",
+          "scope": "test",
+          "selectedVersion": "5.3.25",
+          "id": "org.springframework:spring-beans:5.3.25",
+          "parent": "org.springframework:spring-web:5.3.25",
+          "children": [
+            {
+              "groupId": "org.springframework",
+              "artifactId": "spring-core",
+              "version": "5.3.25",
+              "checksumAlgorithm": "sha1",
+              "checksum": "85382e86321227506bf7f97ed80e2ab88bce25f0",
+              "scope": "test",
+              "selectedVersion": "5.3.25",
+              "id": "org.springframework:spring-core:5.3.25",
+              "parent": "org.springframework:spring-beans:5.3.25",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "org.springframework",
+          "artifactId": "spring-core",
+          "version": "5.3.25",
+          "checksumAlgorithm": "sha1",
+          "checksum": "85382e86321227506bf7f97ed80e2ab88bce25f0",
+          "scope": "test",
+          "selectedVersion": "5.3.25",
+          "id": "org.springframework:spring-core:5.3.25",
+          "parent": "org.springframework:spring-web:5.3.25",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "mavenPlugins": [],
+  "metadata": {
+    "osName": "Linux",
+    "mavenVersion": "3.8.7",
+    "javaVersion": "21.0.10"
+  },
+  "config": {
+    "includeMavenPlugins": false,
+    "reduced": false,
+    "mavenLockfileVersion": "4.1.0",
+    "checksumMode": "maven_local",
+    "checksumAlgorithm": "sha1"
+  }
+}

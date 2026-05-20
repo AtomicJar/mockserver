@@ -1,0 +1,69 @@
+{
+  "artifactID": "mockserver-testing",
+  "groupID": "org.mock-server",
+  "version": "5.15.1-SNAPSHOT",
+  "lockFileVersion": 1,
+  "dependencies": [
+    {
+      "groupId": "junit",
+      "artifactId": "junit",
+      "version": "4.13.2",
+      "checksumAlgorithm": "sha1",
+      "checksum": "8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12",
+      "scope": "compile",
+      "selectedVersion": "4.13.2",
+      "id": "junit:junit:4.13.2",
+      "children": [
+        {
+          "groupId": "org.hamcrest",
+          "artifactId": "hamcrest-core",
+          "version": "2.2",
+          "checksumAlgorithm": "sha1",
+          "checksum": "3f2bd07716a31c395e2837254f37f21f0f0ab24b",
+          "scope": "compile",
+          "selectedVersion": "2.2",
+          "id": "org.hamcrest:hamcrest-core:2.2",
+          "parent": "junit:junit:4.13.2",
+          "children": [
+            {
+              "groupId": "org.hamcrest",
+              "artifactId": "hamcrest",
+              "version": "2.2",
+              "checksumAlgorithm": "sha1",
+              "checksum": "1820c0968dba3a11a1b30669bb1f01978a91dedc",
+              "scope": "compile",
+              "selectedVersion": "2.2",
+              "id": "org.hamcrest:hamcrest:2.2",
+              "parent": "org.hamcrest:hamcrest-core:2.2",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "groupId": "org.hamcrest",
+      "artifactId": "hamcrest",
+      "version": "2.2",
+      "checksumAlgorithm": "sha1",
+      "checksum": "1820c0968dba3a11a1b30669bb1f01978a91dedc",
+      "scope": "compile",
+      "selectedVersion": "2.2",
+      "id": "org.hamcrest:hamcrest:2.2",
+      "children": []
+    }
+  ],
+  "mavenPlugins": [],
+  "metadata": {
+    "osName": "Linux",
+    "mavenVersion": "3.8.7",
+    "javaVersion": "21.0.10"
+  },
+  "config": {
+    "includeMavenPlugins": false,
+    "reduced": false,
+    "mavenLockfileVersion": "4.1.0",
+    "checksumMode": "maven_local",
+    "checksumAlgorithm": "sha1"
+  }
+}
