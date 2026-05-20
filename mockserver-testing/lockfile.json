@@ -1,27 +1,49 @@
 {
-  "artifactID": "mockserver-testing",
-  "groupID": "org.mock-server",
+  "artifactId": "mockserver-testing",
+  "groupId": "org.mock-server",
   "version": "5.15.1-SNAPSHOT",
+  "pom": {
+    "groupId": "org.mock-server",
+    "artifactId": "mockserver-testing",
+    "version": "5.15.1-SNAPSHOT",
+    "relativePath": "pom.xml",
+    "checksumAlgorithm": "SHA-256",
+    "checksum": "13a2dcf83eccb2744a4c1dca44e71299e0b0785c405b807971d24f6abc8a634f",
+    "parent": {
+      "groupId": "org.mock-server",
+      "artifactId": "mockserver",
+      "version": "5.15.1-SNAPSHOT",
+      "relativePath": "../pom.xml",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "480f8ece8794b9e53860cc1e716a68bba1a3d1679a3e45549df03f95138b176f"
+    }
+  },
   "lockFileVersion": 1,
   "dependencies": [
     {
       "groupId": "junit",
       "artifactId": "junit",
       "version": "4.13.2",
-      "checksumAlgorithm": "sha1",
-      "checksum": "8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "8e495b634469d64fb8acfa3495a065cbacc8a0fff55ce1e31007be4c16dc57d3",
       "scope": "compile",
+      "resolved": "https://repo.maven.apache.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar",
+      "repositoryId": "central",
       "selectedVersion": "4.13.2",
+      "included": true,
       "id": "junit:junit:4.13.2",
       "children": [
         {
           "groupId": "org.hamcrest",
           "artifactId": "hamcrest-core",
           "version": "2.2",
-          "checksumAlgorithm": "sha1",
-          "checksum": "3f2bd07716a31c395e2837254f37f21f0f0ab24b",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "094f5d92b4b7d9c8a2bf53cc69d356243ae89c3499457bcb4b92f7ed3bf95879",
           "scope": "compile",
+          "resolved": "https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar",
+          "repositoryId": "central",
           "selectedVersion": "2.2",
+          "included": true,
           "id": "org.hamcrest:hamcrest-core:2.2",
           "parent": "junit:junit:4.13.2",
           "children": [
@@ -29,41 +51,54 @@
               "groupId": "org.hamcrest",
               "artifactId": "hamcrest",
               "version": "2.2",
-              "checksumAlgorithm": "sha1",
-              "checksum": "1820c0968dba3a11a1b30669bb1f01978a91dedc",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "5e62846a89f05cd78cd9c1a553f340d002458380c320455dd1f8fc5497a8a1c1",
               "scope": "compile",
+              "resolved": "https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar",
+              "repositoryId": "central",
               "selectedVersion": "2.2",
+              "included": false,
               "id": "org.hamcrest:hamcrest:2.2",
               "parent": "org.hamcrest:hamcrest-core:2.2",
-              "children": []
+              "children": [],
+              "boms": []
             }
-          ]
+          ],
+          "boms": []
         }
-      ]
+      ],
+      "boms": []
     },
     {
       "groupId": "org.hamcrest",
       "artifactId": "hamcrest",
       "version": "2.2",
-      "checksumAlgorithm": "sha1",
-      "checksum": "1820c0968dba3a11a1b30669bb1f01978a91dedc",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "5e62846a89f05cd78cd9c1a553f340d002458380c320455dd1f8fc5497a8a1c1",
       "scope": "compile",
+      "resolved": "https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar",
+      "repositoryId": "central",
       "selectedVersion": "2.2",
+      "included": true,
       "id": "org.hamcrest:hamcrest:2.2",
-      "children": []
+      "children": [],
+      "boms": []
     }
   ],
   "mavenPlugins": [],
-  "metadata": {
-    "osName": "Linux",
-    "mavenVersion": "3.8.7",
-    "javaVersion": "21.0.10"
+  "mavenExtensions": [],
+  "metaData": {
+    "config": {
+      "includeMavenPlugins": false,
+      "allowValidationFailure": false,
+      "allowPomValidationFailure": false,
+      "allowEnvironmentalValidationFailure": false,
+      "includeEnvironment": false,
+      "reduced": false,
+      "mavenLockfileVersion": "5.16.0",
+      "checksumMode": "local",
+      "checksumAlgorithm": "SHA-256"
+    }
   },
-  "config": {
-    "includeMavenPlugins": false,
-    "reduced": false,
-    "mavenLockfileVersion": "4.1.0",
-    "checksumMode": "maven_local",
-    "checksumAlgorithm": "sha1"
-  }
+  "boms": []
 }

@@ -1,20 +1,31 @@
 {
-  "artifactID": "mockserver",
-  "groupID": "org.mock-server",
+  "artifactId": "mockserver",
+  "groupId": "org.mock-server",
   "version": "5.15.1-SNAPSHOT",
+  "pom": {
+    "groupId": "org.mock-server",
+    "artifactId": "mockserver",
+    "version": "5.15.1-SNAPSHOT",
+    "relativePath": "pom.xml",
+    "checksumAlgorithm": "SHA-256",
+    "checksum": "480f8ece8794b9e53860cc1e716a68bba1a3d1679a3e45549df03f95138b176f"
+  },
   "lockFileVersion": 1,
   "dependencies": [],
   "mavenPlugins": [],
-  "metadata": {
-    "osName": "Linux",
-    "mavenVersion": "3.8.7",
-    "javaVersion": "21.0.10"
+  "mavenExtensions": [],
+  "metaData": {
+    "config": {
+      "includeMavenPlugins": false,
+      "allowValidationFailure": false,
+      "allowPomValidationFailure": false,
+      "allowEnvironmentalValidationFailure": false,
+      "includeEnvironment": false,
+      "reduced": false,
+      "mavenLockfileVersion": "5.16.0",
+      "checksumMode": "local",
+      "checksumAlgorithm": "SHA-256"
+    }
   },
-  "config": {
-    "includeMavenPlugins": false,
-    "reduced": false,
-    "mavenLockfileVersion": "4.1.0",
-    "checksumMode": "maven_local",
-    "checksumAlgorithm": "sha1"
-  }
+  "boms": []
 }

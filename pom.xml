@@ -906,6 +906,17 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <groupId>io.github.chains-project</groupId>
+                <artifactId>maven-lockfile</artifactId>
+                <version>5.16.0</version>
+                <configuration>
+                    <!-- Use local Maven repo checksums so inter-module SNAPSHOT
+                         dependencies are verified against the locally-built JARs -->
+                    <checksumMode>local</checksumMode>
+                    <includeEnvironment>false</includeEnvironment>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
