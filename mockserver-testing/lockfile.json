@@ -1,0 +1,109 @@
+{
+  "artifactId": "mockserver-testing",
+  "groupId": "org.mock-server",
+  "version": "5.15.1-SNAPSHOT",
+  "pom": {
+    "groupId": "org.mock-server",
+    "artifactId": "mockserver-testing",
+    "version": "5.15.1-SNAPSHOT",
+    "relativePath": "pom.xml",
+    "checksumAlgorithm": "SHA-256",
+    "checksum": "13a2dcf83eccb2744a4c1dca44e71299e0b0785c405b807971d24f6abc8a634f",
+    "parent": {
+      "groupId": "org.mock-server",
+      "artifactId": "mockserver",
+      "version": "5.15.1-SNAPSHOT",
+      "relativePath": "../pom.xml",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "0d8722ae45feefb84aac79789dc28745fb2195758c9136686f8182b7789a5195"
+    }
+  },
+  "lockFileVersion": 1,
+  "dependencies": [
+    {
+      "groupId": "junit",
+      "artifactId": "junit",
+      "version": "4.13.2",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "8e495b634469d64fb8acfa3495a065cbacc8a0fff55ce1e31007be4c16dc57d3",
+      "scope": "compile",
+      "resolved": "https://repo.maven.apache.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar",
+      "repositoryId": "central",
+      "selectedVersion": "4.13.2",
+      "included": true,
+      "id": "junit:junit:4.13.2",
+      "children": [
+        {
+          "groupId": "org.hamcrest",
+          "artifactId": "hamcrest-core",
+          "version": "2.2",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "094f5d92b4b7d9c8a2bf53cc69d356243ae89c3499457bcb4b92f7ed3bf95879",
+          "scope": "compile",
+          "resolved": "https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar",
+          "repositoryId": "central",
+          "selectedVersion": "2.2",
+          "included": true,
+          "id": "org.hamcrest:hamcrest-core:2.2",
+          "parent": "junit:junit:4.13.2",
+          "children": [
+            {
+              "groupId": "org.hamcrest",
+              "artifactId": "hamcrest",
+              "version": "2.2",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "5e62846a89f05cd78cd9c1a553f340d002458380c320455dd1f8fc5497a8a1c1",
+              "scope": "compile",
+              "resolved": "https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar",
+              "repositoryId": "central",
+              "selectedVersion": "2.2",
+              "included": false,
+              "id": "org.hamcrest:hamcrest:2.2",
+              "parent": "org.hamcrest:hamcrest-core:2.2",
+              "children": [],
+              "boms": []
+            }
+          ],
+          "boms": []
+        }
+      ],
+      "boms": []
+    },
+    {
+      "groupId": "org.hamcrest",
+      "artifactId": "hamcrest",
+      "version": "2.2",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "5e62846a89f05cd78cd9c1a553f340d002458380c320455dd1f8fc5497a8a1c1",
+      "scope": "compile",
+      "resolved": "https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar",
+      "repositoryId": "central",
+      "selectedVersion": "2.2",
+      "included": true,
+      "id": "org.hamcrest:hamcrest:2.2",
+      "children": [],
+      "boms": []
+    }
+  ],
+  "mavenPlugins": [],
+  "mavenExtensions": [],
+  "metaData": {
+    "environment": {
+      "osName": "Linux",
+      "mavenVersion": "3.8.7",
+      "javaVersion": "11.0.30"
+    },
+    "config": {
+      "includeMavenPlugins": false,
+      "allowValidationFailure": false,
+      "allowPomValidationFailure": false,
+      "allowEnvironmentalValidationFailure": false,
+      "includeEnvironment": true,
+      "reduced": false,
+      "mavenLockfileVersion": "5.16.1-beta-2",
+      "checksumMode": "remote",
+      "checksumAlgorithm": "SHA-256"
+    }
+  },
+  "boms": []
+}

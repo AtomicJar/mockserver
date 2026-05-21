@@ -8,5 +8,8 @@
   "dependencies": {
     "mockserver-client": "5.15.0",
     "mockserver-node": "5.15.0"
+  },
+  "overrides": {
+    "es5-ext": "0.10.53"
   }
 }
